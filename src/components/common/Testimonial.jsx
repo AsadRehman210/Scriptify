@@ -58,7 +58,7 @@ const Testimonials = () => {
   }, []);
 
   return (
-    <div className="bg-white py-12 px-6 md:px-12 lg:pl-24 lg:pr-0 flex flex-col lg:flex-row items-center">
+    <div className="bg-white py-16 px-4 md:px-12 lg:pl-24 lg:pr-0 flex flex-col lg:flex-row items-center">
       {/* Text Section */}
       <div className="w-full lg:w-2/5 mb-8 lg:mb-0 flex flex-col justify-center">
         <h2 className="text-3xl md:text-4xl font-semibold mb-4">

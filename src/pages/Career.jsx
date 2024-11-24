@@ -2,7 +2,7 @@ import React from 'react'
 import Banner from '../components/Banner'
 import WorkEnvironment from '../components/career/WorkEnvironment'
 import Perks from '../components/career/Perks'
-import CareerDiscuss from '../components/career/CareerDiscuss'
+import CareerDiscuss from '../components/common/CareerDiscuss'
 import InterviewProcess from '../components/career/InterviewProcess';
 
 const Career = () => {

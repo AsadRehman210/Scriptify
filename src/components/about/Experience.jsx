@@ -38,14 +38,14 @@ const Experience = () => {
 
                 {/* Video Section */}
                 <div className="w-full lg:w-1/2 px-4 mb-6">
-                    <div className="relative" style={{ paddingTop: '56.25%' }}> {/* Aspect ratio 16:9 */}
+                    <div className="relative" style={{ paddingTop: '56.25%' }}> 
                         <iframe
                             className="absolute top-0 left-0 w-full h-full"
                             src="https://www.youtube.com/embed/UzmFSDI60Ig"
                             title="YouTube video"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowFullScreen
-                            style={{ border: 'none' }}
+                            // style={{ border: 'none' }}
                         ></iframe>
                     </div>
                 </div>

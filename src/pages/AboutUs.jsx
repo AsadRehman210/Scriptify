@@ -4,9 +4,9 @@ import Experience from '../components/about/Experience'
 import DigitalBeauty from '../components/about/DigitalBeauty'
 import CEOIntro from '../components/about/CEOIntro'
 import Headquarter from '../components/about/Headquater'
-import Testimonials from '../components/about/Testimonial'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import Testimonials from '../components/common/Testimonial'
 
 const AboutUs = () => {
     return (
