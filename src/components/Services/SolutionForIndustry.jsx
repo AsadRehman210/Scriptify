@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Ecommerce from "../../assets/images/p1.webp"
 import Real from "../../assets/images/p2.webp"
 import Finance from "../../assets/images/p3.webp"
-import Education from "../../assets/images/p5.webp"
+// import Education from "../../assets/images/p5.webp"
 
 
 const SolutionForIndustry = () => {
@@ -14,21 +14,21 @@ const SolutionForIndustry = () => {
     "Real Estate": "Ropstam offers specialized real estate UI/UX design services. We design property search, listings, brokerage and property management interfaces that connect effectively with real estate users and their journey.",
     Finance:
       "Our financial services expertise has enabled us to design stellar UI/UX of custom software developed for fintech startups and leading financial institutions. We craft intuitive, simple, secure financial product interfaces catering to complex user needs.",
-    Education:
-      "Our edtech UI/UX design experience spans learning management systems, online classrooms, education apps and more. We create engaging student and educator interfaces focused on learning outcomes.",
-    Logistics:
-      "Ropstam has partnered with logistics companies to design seamless UI/UX for dispatch, delivery tracking and fleet management solutions used daily by drivers.",
-    Marketing:
-    "We have delivered user experience and user interface designs, and website development services for marketing SaaS platforms, campaign managers, social media tools and more. Our design maximizes marketer experience and productivity."
+    // Education:
+    //   "Our edtech UI/UX design experience spans learning management systems, online classrooms, education apps and more. We create engaging student and educator interfaces focused on learning outcomes.",
+    // Logistics:
+    //   "Ropstam has partnered with logistics companies to design seamless UI/UX for dispatch, delivery tracking and fleet management solutions used daily by drivers.",
+    // Marketing:
+    // "We have delivered user experience and user interface designs, and website development services for marketing SaaS platforms, campaign managers, social media tools and more. Our design maximizes marketer experience and productivity."
   };
 
   const tabImages = {
     Ecommerce: Ecommerce,
     "Real Estate": Real,
     Finance: Finance,
-    Education: Education,
-    Logistics: Ecommerce,
-    Marketing: Real,
+    // Education: Education,
+    // Logistics: Ecommerce,
+    // Marketing: Real,
   };
 
   return (
