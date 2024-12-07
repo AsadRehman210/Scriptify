@@ -24,8 +24,8 @@ const JobOpenings = () => {
     const locations = ['All Locations', 'Lahore', 'Islamabad', 'Karachi'];
 
     return (
-        <div className="bg-white min-h-screen py-16">
-            <div className="container mx-auto px-4">
+        <section className="bg-white min-h-screen">
+            <div className="container mx-auto px-6 xl:px-36 py-16">
                 <h1 className="text-4xl font-bold text-center mb-10">
                     Job <span className="text-blue-500">Openings</span>
                 </h1>
@@ -88,7 +88,7 @@ const JobOpenings = () => {
                         ))}
                 </div>
             </div>
-        </div>
+        </section>
     );
 };
 

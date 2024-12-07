@@ -1,5 +1,5 @@
 import React from 'react'
-import Banner from '../components/Banner'
+import Banner from '../components/common/Banner'
 import JobOpenings from '../components/career/JobOpenings'
 
 const JobOpening = () => {

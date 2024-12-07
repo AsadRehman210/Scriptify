@@ -1,10 +1,10 @@
 import React from 'react';
-import ContactForm from '../ContactForm';
+import ContactForm from './ContactForm';
 
 const CareerDiscuss = () => {
     return (
-        <section className="bg-blue-500 text-white py-16">
-            <div className='container mx-auto px-4 flex flex-col lg:flex-row items-center lg:items-center justify-between gap-10'>
+        <section className="bg-blue-500 text-white">
+            <div className='container mx-auto px-6 xl:px-36 py-16 flex flex-col lg:flex-row items-center lg:items-center justify-between gap-10'>
                 {/* Left Side - Text */}
                 <div className="w-full lg:w-1/2 text-center lg:text-left">
                     <h3 className="text-2xl sm:text-3xl md:text-3xl lg:text-4xl font-bold mb-6">
