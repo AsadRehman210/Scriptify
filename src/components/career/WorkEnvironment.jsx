@@ -3,9 +3,10 @@ import workEnv from  "../../assets/images/work Environment.png"
 
 const WorkEnvironment = () => {
     return (
-        <section className="bg-white lg:h-[900px] py-16 lg:py-20 flex flex-col lg:flex-row justify-between items-center">
-            {/* Text Section */}
-            <div className="lg:pl-12 md:px-16 sm:px-8 lg:w-1/2 mb-10 lg:mb-0 text-center lg:text-left px-4">
+        <section className="bg-white ">
+           <div className='container mx-auto px-6 xl:px-36 py-16 lg:h-[900px] flex flex-col lg:flex-row justify-between items-center'>
+             {/* Text Section */}
+             <div className=" lg:w-1/2 mb-10 lg:mb-0 text-center lg:text-left">
                 <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-4xl leading-8 sm:leading-10 font-bold mb-6">
                     Be a part of a progressive work environment at <span className='text-blue-700'>Scriptify</span>,
                     where diversity and creativity are celebrated.
@@ -26,6 +27,7 @@ const WorkEnvironment = () => {
                     className="w-full h-auto max-w-lg sm:max-w-lg md:max-w-2xl lg:max-w-lg object-cover"
                 />
             </div>
+           </div>
         </section>
     );
 }

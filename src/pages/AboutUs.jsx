@@ -1,5 +1,5 @@
 import React from 'react'
-import Banner from '../components/Banner'
+import Banner from '../components/common/Banner'
 import Experience from '../components/about/Experience'
 import DigitalBeauty from '../components/about/DigitalBeauty'
 import CEOIntro from '../components/about/CEOIntro'

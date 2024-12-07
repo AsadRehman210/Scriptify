@@ -10,8 +10,8 @@ const InterviewProcess = () => {
     };
 
     return (
-        <div className="bg-gray-100 min-h-screen flex flex-col items-center py-16">
-            <div className="container mx-auto px-4">
+        <div className="bg-gray-100 min-h-screen flex flex-col items-center">
+            <div className="container mx-auto px-6 xl:px-36 py-16">
                 <h1 className="text-3xl font-bold mb-6">
                     Interview At <span className="text-blue-500">Scriptify</span>
                 </h1>

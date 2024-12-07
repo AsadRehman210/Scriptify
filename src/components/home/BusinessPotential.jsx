@@ -4,7 +4,7 @@ import business from "../../assets/images/business.jpg"
 const BusinessPotential = () => {
     return (
         <section className="bg-gray-50 ">
-            <div className="container mx-auto px-4 py-16 flex items-center justify-center">
+            <div className="container mx-auto px-6 xl:px-36 py-16 flex items-center justify-center">
                 <div className="max-w-7xl w-full grid grid-cols-1 md:grid-cols-2 gap-8">
                     {/* Content Section */}
                     <div className="">
@@ -12,7 +12,7 @@ const BusinessPotential = () => {
                             Unlock your business potential
                             <span className="text-blue-500"> with our expert outsourcing solutions</span>
                         </h1>
-                        <p className="text-gray-600 text-lg mb-6">
+                        <p className="text-gray-600 text-lg mb-6 text-justify	">
                             We offer an extension to your in-house team by thoughtfully curating
                             the perfect team members for each task and project. With us, you can
                             access a team of skilled designers, developers, and project
@@ -25,12 +25,12 @@ const BusinessPotential = () => {
                     </div>
 
                     {/* Image Section */}
-                    <div className="flex justify-center">
-                        <div className=" w-full max-w-sm md:max-w-md lg:max-w-full">
+                    <div className="flex justify-center items-center">
+                        <div className=" max-w-full">
                             <img
                                 src={business}
                                 alt="Dashboard Mockup"
-                                className=" w-full max-w-[200px] md:max-w-[250px] lg:max-w-full shadow-lg rounded"
+                                // className=" w-full shadow-lg rounded"
                             />
 
                         </div>
