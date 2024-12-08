@@ -36,7 +36,7 @@ const SolutionForIndustry = () => {
       <div className="container mx-auto px-6 xl:px-36 py-16">
         <div className="flex flex-col md:flex-row items-center gap-8  ">
           {/* Image Section */}
-          <div className="md:w-1/2 mb-8 md:mb-0 h-[30rem]">
+          <div className="md:w-1/2 mb-8 md:mb-0 h-[30rem] order-2 md:order-1">
             <img
               src={tabImages[activeTab]}
               alt={activeTab}
@@ -45,7 +45,7 @@ const SolutionForIndustry = () => {
           </div>
 
           {/* Text and Tabs Section */}
-          <div className="md:w-1/2 text-black">
+          <div className="md:w-1/2 text-black order-1 md:order-2">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-blue-600">
               UI/UX Design{" "}
               <span className="text-black">Solutions for Industries</span>

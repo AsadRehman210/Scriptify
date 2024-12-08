@@ -17,7 +17,7 @@ const Banner = ({
       }}
     >
       <div className="absolute inset-0 bg-blue-900 opacity-70"></div>
-      <div className="container mx-auto px-6 xl:px-36 z-10">
+      <div className="container mx-auto px-6 xl:px-36 z-10 py-20">
         <div className="rounded-lg max-w-3xl flex flex-col items-center md:items-start">
           <h1 className="text-white text-3xl sm:text-4xl md:text-5xl lg:text-5xl xl:text-7xl font-bold mb-4 text-center md:text-start">
             {heading}

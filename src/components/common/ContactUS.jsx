@@ -68,7 +68,7 @@ export const ContactUS = ({
         <div className="w-full flex flex-col lg:flex-row justify-between items-center lg:items-stretch py-20 space-y-10 lg:space-y-0 lg:space-x-10">
           {/* Left Side */}
           <div className="flex-1 flex flex-col justify-center text-white max-w-xl text-justify">
-            <h2 className="text-4xl sm:text-5xl lg:text-5xl font-bold">
+            <h2 className="text-4xl sm:text-5xl lg:text-5xl font-bold text-left">
               {title}
             </h2>
             <p className="mt-4 text-sm sm:text-md lg:text-lg">{description}</p>

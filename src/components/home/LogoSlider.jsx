@@ -14,7 +14,7 @@ const LogoSlider = () => {
   return (
     <div className="py-5 border-b border-gray-200">
       <Marquee direction="left" speed={100} gradient={true}>
-        <div className="flex gap-24 items-center justify-between">
+        <div className="flex gap-28 items-center justify-between">
           {logos.map((logo, index) => (
             <div
               key={index}
