@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Scriptify/static/css/main.35dad234.css",
-    "main.js": "/Scriptify/static/js/main.6f553076.js",
+    "main.js": "/Scriptify/static/js/main.dd17cf2e.js",
     "static/media/perks.png": "/Scriptify/static/media/perks.e5754d7d07c868aacd54.png",
     "static/media/p-2.svg": "/Scriptify/static/media/p-2.cea593598e4501b8b49e13a23b17e4b0.svg",
     "static/media/work Environment.png": "/Scriptify/static/media/work Environment.275cee4d5e070302fce0.png",
@@ -23,10 +23,10 @@
     "static/media/slick.woff": "/Scriptify/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Scriptify/index.html",
     "main.35dad234.css.map": "/Scriptify/static/css/main.35dad234.css.map",
-    "main.6f553076.js.map": "/Scriptify/static/js/main.6f553076.js.map"
+    "main.dd17cf2e.js.map": "/Scriptify/static/js/main.dd17cf2e.js.map"
   },
   "entrypoints": [
     "static/css/main.35dad234.css",
-    "static/js/main.6f553076.js"
+    "static/js/main.dd17cf2e.js"
   ]
 }
