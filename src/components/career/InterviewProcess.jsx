@@ -15,7 +15,7 @@ const InterviewProcess = () => {
                 <h1 className="text-3xl font-bold mb-6">
                     Interview At <span className="text-blue-500">Scriptify</span>
                 </h1>
-                <p className="text-gray-800 mb-10">
+                <p className="text-[#0d2144] mb-10">
                     Our interview process varies from region to region, but below you can find what a general interview process at Scriptify Solutions Inc. looks like.
                 </p>
 
@@ -23,7 +23,7 @@ const InterviewProcess = () => {
                     {/* Interview Process Section */}
                     <div>
                         <h2 className="text-3xl font-bold mb-4 text-blue-500">Interview Process</h2>
-                        <p className="text-gray-800 mb-6">
+                        <p className="text-[#0d2144] mb-6">
                             The interview process at Scriptify differs based on the region. Given below is a general outline of the interview procedure.
                         </p>
                         <div className="space-y-4">
@@ -49,7 +49,7 @@ const InterviewProcess = () => {
                     {/* Interview Tips Section */}
                     <div>
                         <h2 className="text-3xl text-blue-500 font-bold mb-4">Interview Tips</h2>
-                        <p className="text-gray-800 mb-6">
+                        <p className="text-[#0d2144] mb-6">
                             To ace your interview and make a lasting impression, we have compiled some helpful tips that could be of great benefit to you.
                         </p>
                         <div className="space-y-4">

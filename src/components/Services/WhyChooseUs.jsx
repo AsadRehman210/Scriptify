@@ -48,7 +48,7 @@
 //           digital landscape. Here’s why you should entrust your design needs to
 //           us:
 //         </p>
-//         <h3 className="text-lg md:text-xl font-bold text-gray-800">
+//         <h3 className="text-lg md:text-xl font-bold text-[#0d2144]">
 //           Let’s Start a New UI/UX Design Project Together
 //         </h3>
 //         <button className="bg-orange-500 text-white mt-6 w-auto px-6 py-3 rounded-lg shadow hover:bg-orange-600">
@@ -129,7 +129,7 @@ const WhyChooseUs = () => {
               the digital landscape. Here’s why you should entrust your design
               needs to us:
             </p>
-            <h3 className="text-lg md:text-xl font-bold text-gray-800 pt-6">
+            <h3 className="text-lg md:text-xl font-bold text-[#0d2144] pt-6">
               Let’s Start a New UI/UX Design Project Together
             </h3>
             <button className="bg-orange-500 text-white mt-6 mx-auto w-auto px-6 py-3 rounded-lg shadow hover:bg-orange-600 text-left">

@@ -3,56 +3,89 @@ import ServicesCard from "./ServicesCard";
 
 const Services = () => {
   // Array containing card data
+  // const servicesData = [
+  //   {
+  //     title: "Blockchain Development",
+  //     description:
+  //       "Transform your business with secure, scalable blockchain solutions. We create custom networks and smart contracts.",
+  //     iconClass: "fas fa-link",
+  //   },
+  //   {
+  //     title: "Web Applications",
+  //     description:
+  //       "We build dynamic web applications as per your needs to enhance user experience.",
+  //     iconClass: "fas fa-globe",
+  //   },
+  //   {
+  //     title: "Mobile Applications",
+  //     description:
+  //       "Create engaging and intuitive mobile apps that deliver seamless experiences on iOS and Android platforms.",
+  //     iconClass: "fas fa-mobile-alt",
+  //   },
+  //   {
+  //     title: "Blockchain Development",
+  //     description:
+  //       "Transform your business with secure, scalable blockchain solutions. We create custom networks and smart contracts.",
+  //     iconClass: "fas fa-link",
+  //   },
+  //   {
+  //     title: "Web Applications",
+  //     description:
+  //       "We build dynamic web applications as per your needs to enhance user experience.",
+  //     iconClass: "fas fa-globe",
+  //   },
+  //   {
+  //     title: "Mobile Applications",
+  //     description:
+  //       "Create engaging and intuitive mobile apps that deliver seamless experiences on iOS and Android platforms.",
+  //     iconClass: "fas fa-mobile-alt",
+  //   },
+  // ];
+
   const servicesData = [
     {
-      title: "Blockchain Development",
+      title: "Script Writing",
       description:
-        "Transform your business with secure, scalable blockchain solutions. We create custom networks and smart contracts.",
-      iconClass: "fas fa-link", // Icon class
+        "Our expert team will help you convey your message directly to audiences through compelling scripts that perfectly align with your vision.",
+      iconClass: "fas fa-pen-nib", // Icon class
     },
     {
-      title: "Web Applications",
+      title: "Voiceover",
       description:
-        "We build dynamic web applications as per your needs to enhance user experience.",
-      iconClass: "fas fa-globe", // Icon class
+        "Let us help you to give your audience a more personal touch with our professional voiceover services.",
+      iconClass: "fas fa-microphone", // Icon class
     },
     {
-      title: "Mobile Applications",
+      title: "Video Editing",
       description:
-        "Create engaging and intuitive mobile apps that deliver seamless experiences on iOS and Android platforms.",
-      iconClass: "fas fa-mobile-alt", // Icon class
+        "We are also providing engaging video editing services to our clients whether you want to promote your business or just want to engage with your audience.",
+      iconClass: "fas fa-video", // Icon class
     },
     {
-      title: "Blockchain Development",
+      title: "Thumbnail Creation",
       description:
-        "Transform your business with secure, scalable blockchain solutions. We create custom networks and smart contracts.",
-      iconClass: "fas fa-link", // Icon class
+        "Grab your audience's attention in the first 5 seconds with our attention-grabbing thumbnail designs.",
+      iconClass: "fas fa-image", // Icon class
     },
     {
-      title: "Web Applications",
+      title: "YouTube SEO",
       description:
-        "We build dynamic web applications as per your needs to enhance user experience.",
-      iconClass: "fas fa-globe", // Icon class
-    },
-    {
-      title: "Mobile Applications",
-      description:
-        "Create engaging and intuitive mobile apps that deliver seamless experiences on iOS and Android platforms.",
-      iconClass: "fas fa-mobile-alt", // Icon class
+        "To make your channel more visible to your target audience, we will help to optimize tags, titles, content, and descriptions for the targeted keywords.",
+      iconClass: "fas fa-chart-line", // Icon class
     },
   ];
+  
 
   return (
     <section className="bg-white">
       <div className="container mx-auto px-6 xl:px-36 py-16">
         {/* Heading Section */}
         <div className="text-center">
-          <h2 className="text-3xl font-bold text-gray-800 md:text-4xl">
+          <h2 className="text-3xl font-bold text-[#0d2144] md:text-4xl">
             Our <span className="text-blue-500">Services</span>
           </h2>
           <p className="mt-2 text-gray-600">
-            Driving your Business Towards Success with Innovation, Digitization,
-            and Passion.
+          We are helping businesses to succeed with innovative solutions, expert service, and a passion for excellence.
           </p>
         </div>
 

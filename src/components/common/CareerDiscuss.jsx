@@ -8,7 +8,7 @@ const CareerDiscuss = () => {
                 {/* Left Side - Text */}
                 <div className="w-full lg:w-1/2 text-center lg:text-left">
                     <h3 className="text-2xl sm:text-3xl md:text-3xl lg:text-4xl font-bold mb-6">
-                        Ready to discuss your project with us? Get in touch today to get started.
+                    Ready to discuss your project with us? Get in touch with us now.
                     </h3>
                 </div>
 

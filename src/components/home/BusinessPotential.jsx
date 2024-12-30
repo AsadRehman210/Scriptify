@@ -8,15 +8,12 @@ const BusinessPotential = () => {
                 <div className="max-w-7xl w-full grid grid-cols-1 md:grid-cols-2 gap-8">
                     {/* Content Section */}
                     <div className="">
-                        <h1 className="text-4xl font-bold text-gray-800 mb-4 leading-tight">
-                            Unlock your business potential
-                            <span className="text-blue-500"> with our expert outsourcing solutions</span>
+                        <h1 className="text-4xl font-bold text-[#0d2144] mb-4 leading-tight">
+                        Boost Your Business Potential
+                            <span className="text-blue-500"> With Our Expert Content Creation Solutions</span>
                         </h1>
                         <p className="text-gray-600 text-lg mb-6 text-justify	">
-                            We offer an extension to your in-house team by thoughtfully curating
-                            the perfect team members for each task and project. With us, you can
-                            access a team of skilled designers, developers, and project
-                            managers, without the hassle of managing full-time employees.
+                        Do you feel you’re being backed by limited resources and time? We have got the solutions. Our expert services provide you instant access to an expert team of skilled YouTube search engine optimizers, scriptwriters, video editors, thumbnail designers, and voiceover artists. We carefully select the perfect team member for each task and project so you can focus on growing your business and audience instead of managing a full-time team.
                         </p>
                         <button className="bg-white w-auto text-blue-500 border border-blue-500 font-semibold py-3 px-6 rounded-lg shadow hover:bg-blue-500 hover:text-white transition">
                             Let’s Assemble Your Team

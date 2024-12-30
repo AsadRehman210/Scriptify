@@ -68,7 +68,7 @@ const Header = () => {
           <NavLink
             to="/"
             className={({ isActive }) =>
-              `text-sm ${isActive ? "text-blue-700" : "hover:text-red-700"}`
+              `text-sm text-[#0d2144] ${isActive ? "text-blue-700" : "hover:text-red-700"}`
             }
           >
             Home
@@ -81,7 +81,7 @@ const Header = () => {
             <NavLink
               to="/services"
               className={({ isActive }) =>
-                `text-sm ${isActive ? "text-blue-700" : "hover:text-red-700"}`
+                `text-sm text-[#0d2144] ${isActive ? "text-blue-700" : "hover:text-red-700"}`
               }
             >
               Services 
@@ -99,7 +99,7 @@ const Header = () => {
                     key={index}
                     className="text-sm hover:text-red-700"
                   >
-                    <h4 className="font-semibold text-gray-800">
+                    <h4 className="font-semibold text-[#0d2144]">
                       {item.title}
                     </h4>
                     <p className="text-gray-600 text-xs font-thin">
@@ -119,7 +119,7 @@ const Header = () => {
             <NavLink
               to="/portfolio"
               className={({ isActive }) =>
-                `text-sm ${isActive ? "text-blue-700" : "hover:text-red-700"}`
+                `text-sm text-[#0d2144] ${isActive ? "text-blue-700" : "hover:text-red-700"}`
               }
             >
               Portfolio 
@@ -137,7 +137,7 @@ const Header = () => {
                     key={index}
                     className="text-sm"
                   >
-                    <h4 className="font-semibold text-gray-800">
+                    <h4 className="font-semibold text-[#0d2144]">
                       {item.title}
                     </h4>
                     <p className="text-gray-600 text-xs font-thin">
@@ -153,7 +153,7 @@ const Header = () => {
           <NavLink
             to="/about"
             className={({ isActive }) =>
-              `text-sm ${isActive ? "text-blue-700" : "hover:text-red-700"}`
+              `text-sm text-[#0d2144] ${isActive ? "text-blue-700" : "hover:text-red-700"}`
             }
           >
             About Us
@@ -167,7 +167,7 @@ const Header = () => {
             <NavLink
               to="/insights"
               className={({ isActive }) =>
-                `text-sm ${isActive ? "text-blue-700" : "hover:text-red-700"}`
+                `text-sm text-[#0d2144] ${isActive ? "text-blue-700" : "hover:text-red-700"}`
               }
             >
               Insights <i className="fas fa-chevron-down ml-1"></i>
@@ -180,7 +180,7 @@ const Header = () => {
               >
                 {dropdownData.insights.map((item, index) => (
                   <NavLink to={`/insights/${item.title}`} key={index} className="text-sm">
-                    <h4 className="font-semibold text-gray-800">{item.title}</h4>
+                    <h4 className="font-semibold text-[#0d2144]">{item.title}</h4>
                   </NavLink>
                 ))}
               </div>
@@ -195,7 +195,7 @@ const Header = () => {
             <NavLink
               to="/career"
               className={({ isActive }) =>
-                `text-sm ${isActive ? "text-blue-700" : "hover:text-red-700"}`
+                `text-sm text-[#0d2144] ${isActive ? "text-blue-700" : "hover:text-red-700"}`
               }
             >
               Careers 
@@ -206,7 +206,7 @@ const Header = () => {
                 to="/career/jobopening"
                 className="absolute z-50 top-9 mt-2 w-auto bg-white shadow-lg border-t-2 border-blue-800 py-4 grid grid-cols-1 gap-6 px-6"
               >
-                <h4 className="font-semibold text-gray-800">Jobs Opening</h4>
+                <h4 className="font-semibold text-[#0d2144]">Jobs Opening</h4>
               </NavLink>
             )} */}
           </div>

@@ -13,7 +13,6 @@ const Home = () => {
         <main>
             {/* <Slider /> */}
             <SampleSlider />
-            {/* <ScrollingLogos /> */}
             <LogoSlider />
             <Services />
             <BusinessPotential />

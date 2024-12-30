@@ -10,23 +10,61 @@ import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper/modules";
 import { NavLink } from "react-router-dom";
 
+// const testimonialsData = [
+//   {
+//     image: alexia,
+//     quote:
+//       "“They met expectations with every aspect of design and development of the product, and we’ve seen an increase in downloads and monthly users.”",
+//     name: "Anton Neugebauer",
+//   },
+//   {
+//     image: hassan,
+//     quote:
+//       "“Scriptify has been a great asset to my YouTube channel. Their scripts are engaging and tailored to my audience. Shairaz is dedicated, timely, and always open to feedback. Highly recommend for his expertise and commitment!”",
+//     name: "Hassan Shukor",
+//   },
+//   // Add more testimonials as needed
+// ];
+
 const testimonialsData = [
+  {
+    image: hassan,
+    quote:
+      "“An outstanding scriptwriting agency with an exceptional work ethic. Shairaz's creativity and professionalism are unmatched. I highly recommend his services to anyone in need of top-tier scripts!”",
+    name: "Quinten Fiegen",
+  },
   {
     image: alexia,
     quote:
-      "“They met expectations with every aspect of design and development of the product, and we’ve seen an increase in downloads and monthly users.”",
-    name: "Anton Neugebauer",
-    title: "CEO, RealAdvice Agency",
+      "“In the competitive world of content creation, Scriptify truly stands out for its quality and innovation. Their work never disappoints!”",
+    name: "Tonya McCormick",
   },
   {
     image: hassan,
     quote:
-      "“Outstanding service! Our collaboration resulted in a highly successful product.”",
-    name: "Emily Johnson",
-    title: "CTO, TechWorld",
+      "“I’m highly impressed by their punctuality, dedication, and overall commitment. Shairaz's writing skills are truly top-notch in any niche, making them a reliable partner for all projects.”",
+    name: "Irimia Doris-Elena",
   },
-  // Add more testimonials as needed
+  {
+    image: alexia,
+    quote:
+      "“An absolutely fantastic freelancer who consistently delivers high-quality work with professionalism and attention to detail. Highly recommend working with Shairaz!”",
+    name: "Lisa Gottlebe",
+  },
+  {
+    image: hassan,
+    quote:
+      "“Scriptify has been a great asset to my YouTube channel. Their scripts are engaging and tailored to my audience. Shairaz is dedicated, timely, and always open to feedback. Highly recommend for his expertise and commitment!”",
+    name: "Hassan Shukor",
+  },
+  {
+    image: hassan,
+    quote:
+      "“An excellent agency to collaborate with. They are professional, responsive, and always deliver high-quality work. Working with Shairaz and the team was a fantastic experience, and I highly recommend them for any project!”",
+    name: "Erik",
+  },
 ];
+
 
 const Testimonials = () => {
   useEffect(() => {
@@ -66,7 +104,7 @@ const Testimonials = () => {
       <div className="mx-auto px-6 py-16 md:px-12 lg:pl-36 lg:pr-0 flex flex-col lg:flex-row items-center">
         {/* Text Section */}
         <div className="w-full lg:w-2/5 mb-8 lg:mb-0 flex flex-col justify-center text-center lg:text-left">
-          <h2 className="text-3xl md:text-4xl font-semibold mb-4">
+          <h2 className="text-3xl md:text-4xl font-semibold mb-4 text-[#0d2144]">
             Why <span className="text-blue-600">our clients</span> love us?
           </h2>
           <p className="text-gray-700 text-lg mb-6">

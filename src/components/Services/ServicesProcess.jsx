@@ -32,7 +32,7 @@ const ServicesProcess = () => {
   return (
     <section className='bg-gray-50'>
        <div className=" container mx-auto px-6 xl:px-36 py-16">
-      <h2 className="text-3xl md:text-4xl font-bold text-gray-800 text-center">
+      <h2 className="text-3xl md:text-4xl font-bold text-[#0d2144] text-center">
         Our <span className="text-blue-500">UI/UX</span> Design Process
       </h2>
       <p className="text-gray-600 text-center mt-4">
@@ -53,7 +53,7 @@ const ServicesProcess = () => {
               <div className="text-4xl text-blue-500 mr-4 w-8 h-8">{step.icon}</div>
             </div>
             <div className=''>
-            <h3 className="text-xl font-semibold text-gray-800">{step.title}</h3>
+            <h3 className="text-xl font-semibold text-[#0d2144]">{step.title}</h3>
 
             <p className="text-gray-600">{step.description}</p>
 

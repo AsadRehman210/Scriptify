@@ -135,7 +135,7 @@ const ContactForm = () => {
                 className="w-5 h-5 text-blue-600 border-gray-300 rounded focus:ring-blue-500 focus:ring-2"
                 // required
               />
-              <label className="ml-3 text-gray-800">I'm not a robot</label>
+              <label className="ml-3 text-[#0d2144]">I'm not a robot</label>
             </div>
             {/* CAPTCHA Image */}
             <div className="flex items-center flex-col">
@@ -171,7 +171,7 @@ const ContactForm = () => {
 
           <button
             type="submit"
-            className="flex gap-2 justify-center items-center bg-orange-500 hover:bg-orange-600 text-white font-normal text-lg py-3 px-12 rounded-lg mt-4 mx-auto"
+            className="flex gap-2 justify-center items-center bg-[#1AA54A] hover:bg-orange-600 text-white font-normal text-lg py-3 px-12 rounded-lg mt-4 mx-auto"
           >
             {loading ? (
               <>
