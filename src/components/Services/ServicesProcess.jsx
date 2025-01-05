@@ -1,46 +1,44 @@
 import React from 'react';
 
 const ServicesProcess = () => {
+  
   const steps = [
     {
-      title: 'Ideate',
-      icon: '🧠',
+      title: 'Understanding Needs',
+      icon: 'fas fa-search',
       description:
-        'We tap into proven ideation techniques like sketching, mind mapping, and design studios to explore many potential directions.',
+        'We start with a detailed discussion and consider your specific needs, goals, target audience, and objectives.',
     },
     {
-      title: 'Prototype',
-      icon: '📐',
+      title: 'Planning and Strategy',
+      icon: 'fas fa-pencil-alt',
       description:
-        'We rapidly test concepts and ideas through information architecture, wireframing, and prototyping. This validation prevents wasting effort on flawed concepts.',
+        'Once your goal is clear, we create strategies including trending keywords for SEO, outlining the scripts, and mapping the visuals.',
     },
     {
-        title: 'Ideate',
-        icon: '🧠',
-        description:
-          'We tap into proven ideation techniques like sketching, mind mapping, and design studios to explore many potential directions.',
-      },
-      {
-        title: 'Prototype',
-        icon: '📐',
-        description:
-          'We rapidly test concepts and ideas through information architecture, wireframing, and prototyping. This validation prevents wasting effort on flawed concepts.',
-      },
-    // Add more steps here if needed
+      title: 'Implementation',
+      icon: 'fas fa-cogs',
+      description:
+        'Now we implement our strategies and create engaging scripts, and creative thumbnails, edit videos, and optimize your channel for SEO.',
+    },
+    {
+      title: 'Final Review and Delivery',
+      icon: 'fas fa-check-circle',
+      description:
+        'Before delivering the final results, we perform a quality check to ensure it meets your specific needs.',
+    },
   ];
+
+  
 
   return (
     <section className='bg-gray-50'>
        <div className=" container mx-auto px-6 xl:px-36 py-16">
       <h2 className="text-3xl md:text-4xl font-bold text-[#0d2144] text-center">
-        Our <span className="text-blue-500">UI/UX</span> Design Process
+      Our Process Of <span className="text-blue-500">Content Creation</span> 
       </h2>
       <p className="text-gray-600 text-center mt-4">
-        At Ropstam, we follow a rigorous 6-step user-centered design process to
-        create experiences that truly resonate with your users. By following this
-        well-defined methodology, we ensure that every design we craft is
-        user-centered, efficient, and optimized for your target audience and matches
-        expected user behavior.
+      We follow a 4-step simple process to create user-centric designs while considering your key goals. Our team will work hard and deep-dive to understand your needs which will provide you with perfect results that resonate perfectly with your needs.
       </p>
 
       <div className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-8">
@@ -50,7 +48,9 @@ const ServicesProcess = () => {
             className="p-6 flex flex-cols"
           >
             <div className="flex ">
-              <div className="text-4xl text-blue-500 mr-4 w-8 h-8">{step.icon}</div>
+              <div className="text-4xl text-blue-500 mr-4 w-8 h-8"> 
+              <i className={step.icon}></i>
+              </div>
             </div>
             <div className=''>
             <h3 className="text-xl font-semibold text-[#0d2144]">{step.title}</h3>

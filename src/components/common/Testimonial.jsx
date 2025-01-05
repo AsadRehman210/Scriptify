@@ -108,9 +108,7 @@ const Testimonials = () => {
             Why <span className="text-blue-600">our clients</span> love us?
           </h2>
           <p className="text-gray-700 text-lg mb-6">
-            Our clients love us because we prioritize effective communication
-            and are committed to delivering high-quality software solutions that
-            meet the highest standards of excellence.
+          Our commitment to effective communication and delivering guaranteed results keeps our clients coming back. Here is what our clients say
           </p>
           <NavLink
             to="/contact"

@@ -8,9 +8,9 @@ import SolutionForIndustry from "../components/Services/SolutionForIndustry";
 
 export const Services = () => {
   const contactInfo = {
-    title: "UI/UX Design Services",
+    title: "Maximize Your Online Presence With Our Expert Solutions",
     description:
-      "Unlock the potential of exceptional UI/UX design services at Ropstam. Elevate your digital presence with our holistic approach, latest technology stack, and industry-specific solutions. Discover why we’re the best UI/UX design company for your brand’s success.",
+      "Get the full potential of your business with our expert content creation services. Our goal-centric approach, advanced technology, and industry-specific solutions will boost your online visibility and drive user engagement effectively.",
     buttonText: "Let's Get Started",
   };
   return (
@@ -23,7 +23,8 @@ export const Services = () => {
       <CustomerServices />
       <ServicesProcess />
       <WhyChooseUs />
-      <Portfolio 
+      <Portfolio
+      description = "Discover the power of our expertise in our collective portfolio, showcasing content creation for every industry. Also, explore our outstanding thumbnails work and see how we help YouTube channels to succeed."
       Explore="Explore More"/>
       <SolutionForIndustry />
     </main>

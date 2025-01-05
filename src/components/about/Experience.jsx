@@ -1,39 +1,42 @@
 import React from "react";
 
 const Experience = () => {
+    const stats = [
+        {
+            year: '6+ Years',
+            title: 'Of Experience',
+            description: 'For 6 years, we have been providing exceptional content creation services. Whether you\'re a startup or an established one, our knowledge and experience help everyone.'
+        },
+        {
+            year: '100+',
+            title: 'Successful Projects',
+            description: 'Each project we had, was a new opportunity for us to craft something extraordinary. Our team puts extra effort and creativity into each project to bring your vision into reality.'
+        },
+        {
+            year: '10+',
+            title: 'Skilled Professional Team',
+            description: 'Our talented team has seasoned IT experts who bring over a decade of industry experience to every project.'
+        },
+        {
+            year: '30+',
+            title: 'Satisfied Clients',
+            description: 'At the core of our success lies our dedication and understanding and fulfilling our client\'s unique needs.'
+        }
+    ];
+    
+
     return (
         <section className="bg-white">
             <div className="container mx-auto px-6 xl:px-36 py-16 flex flex-wrap items-center">
                 {/* Stats Section */}
                 <div className="w-full lg:w-1/2 flex flex-wrap">
-                    <div className="w-full md:w-1/2 lg:w-1/2 pr-4 mb-6">
-                        <h3 className="text-blue-600 text-lg font-semibold">2009</h3>
-                        <h2 className="text-xl font-bold mt-2">For 13+ years</h2>
-                        <p className="mt-2 text-gray-600 text-justify">
-                            Ropstam has been a leading innovator in software development, delivering solutions to complex challenges.
-                        </p>
-                    </div>
-                    <div className="w-full md:w-1/2 lg:w-1/2 pr-4 mb-6">
-                        <h3 className="text-blue-600 text-lg font-semibold">1500+</h3>
-                        <h2 className="text-xl font-bold mt-2">Projects Completed</h2>
-                        <p className="mt-2 text-gray-600 text-justify">
-                            Our team of industry experts will skillfully craft a personalized online presence that brings your unique vision to life.
-                        </p>
-                    </div>
-                    <div className="w-full md:w-1/2 lg:w-1/2 pr-4 mb-6">
-                        <h3 className="text-blue-600 text-lg font-semibold">100+</h3>
-                        <h2 className="text-xl font-bold mt-2">Talented Members</h2>
-                        <p className="mt-2 text-gray-600 text-justify">
-                            Our team includes seasoned IT professionals with over a decade of experience in the industry.
-                        </p>
-                    </div>
-                    <div className="w-full md:w-1/2 lg:w-1/2 pr-4 mb-6">
-                        <h3 className="text-blue-600 text-lg font-semibold">500+</h3>
-                        <h2 className="text-xl font-bold mt-2">Happy Clients</h2>
-                        <p className="mt-2 text-gray-600 text-justify">
-                            At the heart of our successful business lies a commitment to putting customers' requirements first.
-                        </p>
-                    </div>
+                    {stats.map((stat, index) => (
+                        <div key={index} className="w-full md:w-1/2 lg:w-1/2 pr-4 mb-6">
+                            <h3 className="text-blue-600 text-lg font-semibold">{stat.year}</h3>
+                            <h2 className="text-xl font-bold mt-2">{stat.title}</h2>
+                            <p className="mt-2 text-gray-600 text-justify">{stat.description}</p>
+                        </div>
+                    ))}
                 </div>
 
                 {/* Video Section */}
@@ -45,7 +48,6 @@ const Experience = () => {
                             title="YouTube video"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                             allowFullScreen
-                            // style={{ border: 'none' }}
                         ></iframe>
                     </div>
                 </div>

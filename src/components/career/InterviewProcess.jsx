@@ -16,7 +16,7 @@ const InterviewProcess = () => {
                     Interview At <span className="text-blue-500">Scriptify</span>
                 </h1>
                 <p className="text-[#0d2144] mb-10">
-                    Our interview process varies from region to region, but below you can find what a general interview process at Scriptify Solutions Inc. looks like.
+                Our interview process varies in different regions but below you will get a general interview process of Scriptify Solutions Inc. and some effective tips.
                 </p>
 
                 <div className="grid md:grid-cols-2 gap-8">
@@ -24,7 +24,7 @@ const InterviewProcess = () => {
                     <div>
                         <h2 className="text-3xl font-bold mb-4 text-blue-500">Interview Process</h2>
                         <p className="text-[#0d2144] mb-6">
-                            The interview process at Scriptify differs based on the region. Given below is a general outline of the interview procedure.
+                        The journey to become a part of Scriptify is as dynamic as our global presence. Here is a general overview of the Scriptify Interview Process.
                         </p>
                         <div className="space-y-4">
                             {accordionData.slice(0, 4).map((item, index) => (
@@ -50,7 +50,7 @@ const InterviewProcess = () => {
                     <div>
                         <h2 className="text-3xl text-blue-500 font-bold mb-4">Interview Tips</h2>
                         <p className="text-[#0d2144] mb-6">
-                            To ace your interview and make a lasting impression, we have compiled some helpful tips that could be of great benefit to you.
+                        To help you stay confident and focused during the interview, we will mention some simple yet helpful tips that help to reduce your nervousness and boost your confidence.
                         </p>
                         <div className="space-y-4">
                             {accordionData.slice(4).map((item, index) => (

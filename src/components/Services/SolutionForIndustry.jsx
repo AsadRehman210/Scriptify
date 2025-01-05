@@ -9,18 +9,32 @@ const SolutionForIndustry = () => {
   const [activeTab, setActiveTab] = useState("Ecommerce");
 
   const tabContent = {
-    Ecommerce:
-      "Ropstam has delivered optimized UI/UX designs for diverse ecommerce businesses. Our designers intially do user research to identify possible customer pain points & issues and then create user-centric online store experiences that drive higher conversion rates. We follow best practices for ecommerce UI/UX across web, mobile and apps by using the right tools such as fonts, colors, buttons, icons, etc.",
-    "Real Estate": "Ropstam offers specialized real estate UI/UX design services. We design property search, listings, brokerage and property management interfaces that connect effectively with real estate users and their journey.",
-    Finance:
-      "Our financial services expertise has enabled us to design stellar UI/UX of custom software developed for fintech startups and leading financial institutions. We craft intuitive, simple, secure financial product interfaces catering to complex user needs.",
-    // Education:
-    //   "Our edtech UI/UX design experience spans learning management systems, online classrooms, education apps and more. We create engaging student and educator interfaces focused on learning outcomes.",
-    // Logistics:
-    //   "Ropstam has partnered with logistics companies to design seamless UI/UX for dispatch, delivery tracking and fleet management solutions used daily by drivers.",
-    // Marketing:
-    // "We have delivered user experience and user interface designs, and website development services for marketing SaaS platforms, campaign managers, social media tools and more. Our design maximizes marketer experience and productivity."
+    Technology:
+      "We serve the tech industry by creating videos with clear and informative scripts and high-quality editing to explain difficult topics easily.",
+    "Health and Fitness":
+      "We also create health and fitness content with professional video editing, engaging scripts, and voiceovers. From workout tutorials to healthy tips, we help you to connect with your audience.",
+    Travel:
+      "Share your travel journey with compelling stories and beautiful visuals, our content creation and YouTube automation services make your audience feel like they are part of the journey.",
+    "Fashion and Beauty":
+      "Bring your fashion expertise creatively through engaging scripts, stunning visuals, and professional voiceovers. Our services make your makeup tutorials and trendy tips more impactful.",
+    Comedy:
+      "Our team will help you a lot to make funny and engaging content that helps your users come back for more humor.",
+    Education:
+      "Our professional scripts and edited educational content ensure clear, concise, and easy-to-understand information that helps your viewers to learn effectively.",
+    "Mindfulness and Meditation":
+      "Our team will help you to create soothing scripts and edited videos that help your audience connect with their inner peace and relaxation.",
+    Automation:
+      "Whether it's car reviews, mechanic tips, or tutorials, our services will not only educate but also inspire the target audience and highlight your automotive expertise.",
+    Science:
+      "Bring the wonder of science and exploration to real life, our team will make the content educational, inspiring, and entertaining.",
+    History:
+      "We will also help you to share fascinating stories, historical facts, and events in a simple format for your audience through our services.",
+    "Political Commentary":
+      "Our team will also work to provide you with informational political commentary with clear and engaging videos on the issues that matter the most.",
+    Politics:
+      "Engage with your audience through well-researched political content whether it's current issues or political debates, we will help you craft compelling videos.",
   };
+  
 
   const tabImages = {
     Ecommerce: Ecommerce,
@@ -47,14 +61,11 @@ const SolutionForIndustry = () => {
           {/* Text and Tabs Section */}
           <div className="md:w-1/2 text-black order-1 md:order-2">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-blue-600">
-              UI/UX Design{" "}
-              <span className="text-black">Solutions for Industries</span>
+            Content Creation
+              <span className="text-black"> For Every Industry</span>
             </h2>
             <p className="mb-6">
-              Our designers have created award-winning solutions across a
-              diverse range of industries. This extensive experience allows us
-              to craft customized UI/UX that aligns perfectly to your specific
-              market context and end-users.
+            Our exceptional and versatile services serve different industries. We provide customized services that perfectly meet market trends and get user attention at first.
             </p>
 
             {/* Tabs */}

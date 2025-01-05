@@ -1,50 +1,46 @@
 import React from "react";
 
 const CustomerServices = () => {
-  const services = [
+  
+   const services = [
     {
-      id: 1,
-      icon: "fas fa-globe",
-      title: "Website UI/UX Design",
+      title: 'Understanding Needs',
+      icon: 'fas fa-search',
       description:
-        "We craft immersive website experiences optimized for user engagement and conversion.",
+        'We start with a detailed discussion and consider your specific needs, goals, target audience, and objectives.',
     },
     {
-      id: 2,
-      icon: "fas fa-mobile-alt",
-      title: "Mobile UI/UX Design",
+      title: 'Planning and Strategy',
+      icon: 'fas fa-pencil-alt',
       description:
-        "Our mobile app designs and user interfaces provide intuitive navigation and flows for flawless mobile interactions.",
+        'Once your goal is clear, we create strategies including trending keywords for SEO, outlining the scripts, and mapping the visuals.',
     },
     {
-      id: 3,
-      icon: "fas fa-paint-brush",
-      title: "Graphic Design",
+      title: 'Implementation',
+      icon: 'fas fa-cogs',
       description:
-        "Creating visually stunning designs that align with your brand identity and engage your audience.",
+        'Now we implement our strategies and create engaging scripts, and creative thumbnails, edit videos, and optimize your channel for SEO.',
     },
     {
-      id: 4,
-      icon: "fas fa-chart-bar",
-      title: "Data Visualization",
+      title: 'Final Review and Delivery',
+      icon: 'fas fa-check-circle',
       description:
-        "Turning complex data into visually appealing and easy-to-understand graphics.",
+        'Before delivering the final results, we perform a quality check to ensure it meets your specific needs.',
     },
   ];
+
 
   return (
     <section className="bg-white">
       <div className="container mx-auto px-6 xl:px-36 py-16">
         <div className=" text-center">
           <h2 className="text-3xl font-bold">
-            Our <span className="text-blue-500">Custom UI/UX</span> Design
-            Services
+          Our Custom 
+          <span className="text-blue-500"> Content Creation </span> 
+           Services For Everyone
           </h2>
           <p className="mt-4 text-gray-600">
-            Ropstam offers cutting-edge UI/UX design services to create
-            intuitive, engaging digital experiences. With an expert team of
-            designers and researchers, we help companies craft user-focused
-            products that delight customers.
+          Let us help to maximize your digital presence with our expert content creation solutions that are customizable according to your needs. Our team is an expert in delivering high-quality services that improve user experience.
           </p>
         </div>
         <div className="mt-8 flex flex-wrap justify-center gap-6">

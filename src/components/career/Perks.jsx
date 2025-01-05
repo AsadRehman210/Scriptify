@@ -1,5 +1,28 @@
 import React from 'react';
-import office from "../../assets/images/perks.png"
+import office from "../../assets/images/perks.png";
+
+const perksData = [
+    {
+        title: "Bonuses",
+        description: "We appreciate your hard work by providing a performance-based bonus."
+    },
+    {
+        title: "Leave Allowance",
+        description: "We believe in work-life balance that’s why we offer 18 days of paid leave and 24 days of unpaid leave within the year."
+    },
+    {
+        title: "Leave Encashment",
+        description: "We will never ignore your unused leave, it's encashable at the end of the year."
+    },
+    {
+        title: "Employee of the Month",
+        description: "We also measure your overall monthly performance and reward your hard work with a cash prize."
+    },
+    {
+        title: "Holidays",
+        description: "As we are based in Pakistan, you can enjoy Pakistani holidays with your family and loved ones."
+    }
+];
 
 const Perks = () => {
     return (
@@ -16,66 +39,23 @@ const Perks = () => {
             {/* Right Column - Content */}
             <div className="lg:w-3/5 w-full px-4 lg:px-12 order-1 lg:order-2">
                 <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-6 text-center lg:text-left">
-                    Our Perks
+                    Our Perks And Benefits
                 </h2>
                 <p className="text-base sm:text-lg lg:text-md mb-8 text-justify">
-                    At Scriptify, we believe in providing our employees with a work environment they love while also ensuring they are financially comfortable. That’s why we offer fantastic benefits and perks to help support their daily lives.
+                    We understand the importance of financial security and work-life balance. That’s why we have collected a range of perks designed to support your career and daily life.
                 </p>
                 <ul className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-                    <li className="flex items-start">
-                        <span className="flex items-center justify-center h-8 rounded-full bg-blue-500 text-white mr-4 px-2">
-                            ✔
-                        </span>
-                        <span>
-                            <strong>Bonuses</strong><br />
-                            Pay rise, promotions, and top opportunities for professional development.
-                        </span>
-                    </li>
-                    <li className="flex items-start">
-                        <span className="flex items-center justify-center h-8 rounded-full bg-blue-500 text-white mr-4 px-2">
-                            ✔
-                        </span>
-                        <span>
-                            <strong>Health Insurance</strong><br />
-                            Healthcare coverage and wellness benefits.
-                        </span>
-                    </li>
-                    <li className="flex items-start">
-                        <span className="flex items-center justify-center h-8 rounded-full bg-blue-500 text-white mr-4 px-2">
-                            ✔
-                        </span>
-                        <span>
-                            <strong>Provident Funds</strong><br />
-                            Maximize Your Tax & Investment Benefits with Our Company Sponsored Provident Funds.
-                        </span>
-                    </li>
-                    <li className="flex items-start">
-                        <span className="flex items-center justify-center h-8 rounded-full bg-blue-500 text-white mr-4 px-2">
-                            ✔
-                        </span>
-                        <span>
-                            <strong>Vehicle</strong><br />
-                            Company maintained vehicle along with fuel allowance.
-                        </span>
-                    </li>
-                    <li className="flex items-start">
-                        <span className="flex items-center justify-center h-8 rounded-full bg-blue-500 text-white mr-4 px-2">
-                            ✔
-                        </span>
-                        <span>
-                            <strong>Parental Leaves</strong><br />
-                            When it comes to feelings, work isn’t the priority.
-                        </span>
-                    </li>
-                    <li className="flex items-start">
-                        <span className="flex items-center justify-center h-8 rounded-full bg-blue-500 text-white mr-4 px-2">
-                            ✔
-                        </span>
-                        <span>
-                            <strong>Training</strong><br />
-                            Mentors to guide and support you. Training programs to polish your skills.
-                        </span>
-                    </li>
+                    {perksData.map((perk, index) => (
+                        <li key={index} className="flex items-start">
+                            <span className="flex items-center justify-center h-8 rounded-full bg-blue-500 text-white mr-4 px-2">
+                                ✔
+                            </span>
+                            <span>
+                                <strong>{perk.title}</strong><br />
+                                {perk.description}
+                            </span>
+                        </li>
+                    ))}
                 </ul>
             </div>
         </section>

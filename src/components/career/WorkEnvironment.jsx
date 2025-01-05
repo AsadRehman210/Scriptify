@@ -8,11 +8,11 @@ const WorkEnvironment = () => {
              {/* Text Section */}
              <div className=" lg:w-1/2 mb-10 lg:mb-0 text-center lg:text-left">
                 <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-4xl leading-8 sm:leading-10 font-bold mb-6">
-                    Be a part of a progressive work environment at <span className='text-blue-700'>Scriptify</span>,
-                    where diversity and creativity are celebrated.
+                Be a Part Of Our Inclusive <span className='text-blue-700'>Environment</span>,
+                    Where We Grow Together And Celebrate Our Success.
                 </h1>
                 <p className="text-base sm:text-lg md:text-lg lg:text-md mb-8 text-justify font-thin">
-                    At Scriptify, we foster strong partnerships and support growth for all employees. Our inclusive workplace culture is driven by our commitment to providing economic, intellectual, and emotional value. Through a variety of practices, policies, and processes, we offer opportunities for professional development and continuous learning, ensuring our team is equipped to achieve success.
+                At Scriptify, we are more than just a company, we are a community where diversity and creativity succeed. Our supportive environment is built on collaborations that grow employees and support their aims. With a strong focus on creating economic, intellectual, and emotional value, we ensure every team member feels valued. We also provide equal opportunities for learning and growth.
                 </p>
                 <button className="bg-blue-500 text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-600 text-base sm:text-lg md:text-xl">
                     Connect with Us

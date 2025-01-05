@@ -8,10 +8,10 @@ const DigitalBeauty = () => {
                 {/* Left Text Section */}
                 <div className="w-full lg:w-1/2 mb-6 lg:mb-0 pr-0 md:pr-10">
                     <h2 className="text-2xl lg:text-4xl font-semibold mb-4" style={{ lineHeight: "45px" }}>
-                        Crafting digital beauty, one project at a time.
+                    Let’s Drive Digital Excellence With Us
                     </h2>
                     <p className="text-gray-900 text-justify">
-                        Scriptify delivers top-notch digital products with a focus on quality, innovation, and customer satisfaction. Our team of experts have over 10 years of experience in web and mobile development, ensuring your ideas are transformed into successful online businesses that stand out from the competition.
+                    At Scriptify, we are proud of creating digital solutions. From content creation and video editing to thumbnail designs and YouTube SEO, we ensure quality work with measurable results. This will ensure their ideas succeed and lead their business in the competitive market.
                     </p>
                 </div>
 
@@ -19,7 +19,7 @@ const DigitalBeauty = () => {
                 {/* Right Text Section */}
                 <div className="w-full lg:w-1/2 md:pl-10">
                     <p className="text-blue-500 font-semibold text-xl lg:text-3xl text-justify" style={{ lineHeight: "40px" }}>
-                        Unlock the potential of your online presence with Scriptify’s proven track record of delivering top-notch web solutions to over 500 clients worldwide.
+                    Discover digital excellence, expand your global reach with Scriptify’s high-quality services, and include 500+ satisfied clients.
                     </p>
                 </div>
             </div>

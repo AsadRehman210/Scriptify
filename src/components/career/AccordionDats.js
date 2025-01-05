@@ -1,34 +1,34 @@
 export const accordionData = [
     {
         title: 'Phone Interview',
-        content: "In the phone interview, we'll discuss your background, experience, and assess if you're a good fit for the role.",
+        content: "We start by getting to know your background or experience through a casual conversation to check if you are a good fit or not.",
     },
     {
-        title: 'Exercises/Test',
-        content: "You'll be given a set of tasks or a test to complete, which helps us evaluate your skills and problem-solving abilities.",
+        title: 'Exercises/Tests',
+        content: "Our next step is to give you a task or exercise that you have to complete, through which we check your technical skills.",
     },
     {
-        title: 'Onsite Interview(s)',
-        content: "Onsite interviews will involve meeting with multiple team members to assess your technical and cultural fit within the company.",
+        title: 'Onsite Interview',
+        content: "Next, we will conduct onsite or virtual meetings depending on your location, where we assess your cultural fit and discuss how you can contribute to Scriptify's success.",
     },
     {
         title: 'Offer Stage',
-        content: "After successfully completing the interviews, you'll move to the offer stage where we discuss the terms of employment.",
+        content: "After completing the process, we will move to an offer stage where we discuss terms of employment.",
     },
     {
         title: 'Be Resourceful',
-        content: "Utilize all resources available to you, including researching the company and the role you're applying for.",
+        content: "Research the company and the specific role you are applying for. It helps you to stay confident.",
     },
     {
         title: 'Be Genuine',
-        content: "Be yourself in the interview. Authenticity is key to forming a connection with your interviewers.",
+        content: "Just be yourself because authenticity is the key to showing your real personality and what makes you unique.",
     },
     {
         title: 'Be Curious',
-        content: "Ask thoughtful questions during your interview. It shows that you're engaged and interested in the role and company.",
+        content: "Ask questions as it shows that you're genuinely interested in the role and want to know more about the company's culture.",
     },
     {
         title: 'Be Confident',
-        content: "Confidence in your abilities and experience will leave a positive impression on your interviewers.",
+        content: "Believe in your skills and experience and don’t forget to mention your key achievements.",
     },
 ];

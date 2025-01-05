@@ -12,8 +12,8 @@ const AboutUs = () => {
     return (
         <main>
             <Banner
-                heading="About Us"
-                content="Scriptify is a leading Canadian IT solutions company staffed by a team of skilled professionals in web development, mobile app development, UI/UX design, and blockchain development. We specialize in providing comprehensive software solutions and services, expertly handling complex projects to deliver outstanding results for our clients."
+                heading="Welcome To Scriptify"
+                content="Based in Lahore Punjab, Scriptify has become a leader in providing content creation services. We have an experienced professional team specializing in YouTube SEO, scriptwriting, video editing, thumbnail designing, and voice-overs. We are dedicated to providing high-quality work that helps our clients drive exceptional results."
                 button="Let's Get Started"
                 btnRightContent="Explore Services"
 

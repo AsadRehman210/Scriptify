@@ -9,8 +9,8 @@ const Career = () => {
     return (
         <main>
             <Banner 
-                heading= "Our most valuable asset — YOU."
-                content= "Looking for an exciting career in software development and technology? Join Scriptify and become a part of our dynamic team of experts dedicated to creating innovative solutions for our clients. We value creativity, collaboration, and continuous learning and offer a supportive work environment that encourages personal and professional growth. Explore our current job openings and start your journey with Scriptify today!"
+                heading= "Our Most Important Asset — YOU."
+                content= "Are you looking to kickstart your career in digital marketing and content creation? Join Scriptify where innovation meets opportunity. As a part of our talented team, you will collaborate with our experts who are dedicated to providing effective solutions to our clients. We celebrate creativity and promote innovation, and continuous learning in a supportive environment that boosts both personal and professional growth. "
                 button="Job Openings"
                 link="/career/jobopening"
             />          

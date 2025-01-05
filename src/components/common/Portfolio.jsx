@@ -49,19 +49,17 @@ const portfolioItems = [
   },
 ];
 
-const Portfolio = ({ Explore }) => {
+const Portfolio = ({description, Explore }) => {
   return (
     <section className="bg-white">
       <div className="container mx-auto px-6 xl:px-36 py-16">
         <div className="max-w-3xl text-left">
           <h2 className="text-3xl font-extrabold text-gray-900">
-            <span className="text-blue-600">UI/UX</span> Design Portfolio
+          Check Out 
+          <span className="text-blue-600"> Our Portfolio</span> For Better Understanding 
           </h2>
           <p className="mt-4 text-blue-500 text-xl">
-            See the proof of our expertise in our extensive and seamless UI/UX
-            design portfolio. We’ve partnered with diverse industries to deliver
-            remarkable design solutions. Here are the examples of our
-            award-winning UI/UX work:
+          {description}
           </p>
         </div>
         <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
