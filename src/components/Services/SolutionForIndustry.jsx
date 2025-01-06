@@ -6,7 +6,7 @@ import Finance from "../../assets/images/p3.webp"
 
 
 const SolutionForIndustry = () => {
-  const [activeTab, setActiveTab] = useState("Ecommerce");
+  const [activeTab, setActiveTab] = useState("Technology");
 
   const tabContent = {
     Technology:
@@ -37,9 +37,9 @@ const SolutionForIndustry = () => {
   
 
   const tabImages = {
-    Ecommerce: Ecommerce,
-    "Real Estate": Real,
-    Finance: Finance,
+    Technology: Ecommerce,
+    "Health and Fitness": Real,
+    Travel: Finance,
     // Education: Education,
     // Logistics: Ecommerce,
     // Marketing: Real,
@@ -48,35 +48,28 @@ const SolutionForIndustry = () => {
   return (
     <section className="bg-white">
       <div className="container mx-auto px-6 xl:px-36 py-16">
-        <div className="flex flex-col md:flex-row items-center gap-8  ">
-          {/* Image Section */}
-          <div className="md:w-1/2 mb-8 md:mb-0 h-[30rem] order-2 md:order-1">
-            <img
-              src={tabImages[activeTab]}
-              alt={activeTab}
-              className="rounded-lg shadow-lg h-full w-full"
-            />
-          </div>
+        <div className="flex flex-col items-center gap-8  ">
+          
 
           {/* Text and Tabs Section */}
-          <div className="md:w-1/2 text-black order-1 md:order-2">
+          <div className="w-full text-[#0d2144]">
             <h2 className="text-3xl md:text-4xl font-bold mb-4 text-blue-600">
             Content Creation
-              <span className="text-black"> For Every Industry</span>
+              <span className="text-[#0d2144]"> For Every Industry</span>
             </h2>
             <p className="mb-6">
             Our exceptional and versatile services serve different industries. We provide customized services that perfectly meet market trends and get user attention at first.
             </p>
 
             {/* Tabs */}
-            <div className="flex flex-wrap border-b border-gray-300 mb-6 divide-x divide-gray-300">
+            <div className="flex overflow-x-auto whitespace-nowrap gap-4 py-4 custom-scrollbar">
               {Object.keys(tabContent).map((tab) => (
                 <button
                   key={tab}
-                  className={`px-2 py-2 text-sm md:text-base font-semibold  ${
+                  className={`px-4 py-2 text-sm md:text-base rounded-full border-2 ${
                     activeTab === tab
-                      ? " text-blue-600"
-                      : "text-black hover:text-orange-600"
+                      ? " bg-blue-600 text-white border-blue-600"
+                      : "bg-white text-[#0d2144] border-gray-300 hover:bg-orange-100"
                   }`}
                   onClick={() => setActiveTab(tab)}
                 >
@@ -86,9 +79,18 @@ const SolutionForIndustry = () => {
             </div>
 
             {/* Tab Content */}
-            <div className="text-black">
-              <p>{tabContent[activeTab]}</p>
+            <div className="text-[#0d2144]">
+              <p className="mt-4">{tabContent[activeTab]}</p>
             </div>
+          </div>
+
+          {/* Image Section */}
+          <div className="lg:w-full mb-8 md:mb-0 h-[30rem]">
+            <img
+              src={tabImages[activeTab]}
+              alt={activeTab}
+              className="rounded-lg shadow-lg h-full w-full"
+            />
           </div>
         </div>
       </div>

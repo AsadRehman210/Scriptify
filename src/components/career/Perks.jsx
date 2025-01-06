@@ -27,7 +27,6 @@ const perksData = [
 const Perks = () => {
     return (
         <section className="bg-gray-100 flex flex-col lg:flex-row items-center mb-16 gap-12 pt-16 lg:py-0">
-            {/* Left Column - Image */}
             <div className="lg:w-2/5 flex justify-center lg:justify-start order-2 lg:order-1">
                 <img
                     src={office}
@@ -36,24 +35,23 @@ const Perks = () => {
                 />
             </div>
 
-            {/* Right Column - Content */}
-            <div className="lg:w-3/5 w-full px-4 lg:px-12 order-1 lg:order-2">
+            <div className="lg:w-3/5 w-full px-4 lg:px-12 order-1 lg:order-2 text-[#0d2144]">
                 <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-6 text-center lg:text-left">
                     Our Perks And Benefits
                 </h2>
-                <p className="text-base sm:text-lg lg:text-md mb-8 text-justify">
+                <p className="text-base sm:text-lg lg:text-md mb-8 text-justify text-gray-600">
                     We understand the importance of financial security and work-life balance. That’s why we have collected a range of perks designed to support your career and daily life.
                 </p>
                 <ul className="grid grid-cols-1 sm:grid-cols-2 gap-6">
                     {perksData.map((perk, index) => (
                         <li key={index} className="flex items-start">
-                            <span className="flex items-center justify-center h-8 rounded-full bg-blue-500 text-white mr-4 px-2">
+                            <div className="flex items-center justify-center h-8 w-8 rounded-full bg-blue-500 text-white mr-4 px-2">
                                 ✔
-                            </span>
-                            <span>
-                                <strong>{perk.title}</strong><br />
+                            </div>
+                            <div className='text-gray-600'>
+                                <strong className='text-[#0d2144]'>{perk.title}</strong><br />
                                 {perk.description}
-                            </span>
+                            </div>
                         </li>
                     ))}
                 </ul>

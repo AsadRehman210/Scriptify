@@ -2,76 +2,37 @@ import React from "react";
 import ServicesCard from "./ServicesCard";
 
 const Services = () => {
-  // Array containing card data
-  // const servicesData = [
-  //   {
-  //     title: "Blockchain Development",
-  //     description:
-  //       "Transform your business with secure, scalable blockchain solutions. We create custom networks and smart contracts.",
-  //     iconClass: "fas fa-link",
-  //   },
-  //   {
-  //     title: "Web Applications",
-  //     description:
-  //       "We build dynamic web applications as per your needs to enhance user experience.",
-  //     iconClass: "fas fa-globe",
-  //   },
-  //   {
-  //     title: "Mobile Applications",
-  //     description:
-  //       "Create engaging and intuitive mobile apps that deliver seamless experiences on iOS and Android platforms.",
-  //     iconClass: "fas fa-mobile-alt",
-  //   },
-  //   {
-  //     title: "Blockchain Development",
-  //     description:
-  //       "Transform your business with secure, scalable blockchain solutions. We create custom networks and smart contracts.",
-  //     iconClass: "fas fa-link",
-  //   },
-  //   {
-  //     title: "Web Applications",
-  //     description:
-  //       "We build dynamic web applications as per your needs to enhance user experience.",
-  //     iconClass: "fas fa-globe",
-  //   },
-  //   {
-  //     title: "Mobile Applications",
-  //     description:
-  //       "Create engaging and intuitive mobile apps that deliver seamless experiences on iOS and Android platforms.",
-  //     iconClass: "fas fa-mobile-alt",
-  //   },
-  // ];
 
   const servicesData = [
     {
       title: "Script Writing",
       description:
         "Our expert team will help you convey your message directly to audiences through compelling scripts that perfectly align with your vision.",
-      iconClass: "fas fa-pen-nib", // Icon class
+      iconClass: "fas fa-pen-nib",
     },
     {
       title: "Voiceover",
       description:
         "Let us help you to give your audience a more personal touch with our professional voiceover services.",
-      iconClass: "fas fa-microphone", // Icon class
+      iconClass: "fas fa-microphone",
     },
     {
       title: "Video Editing",
       description:
         "We are also providing engaging video editing services to our clients whether you want to promote your business or just want to engage with your audience.",
-      iconClass: "fas fa-video", // Icon class
+      iconClass: "fas fa-video",
     },
     {
       title: "Thumbnail Creation",
       description:
         "Grab your audience's attention in the first 5 seconds with our attention-grabbing thumbnail designs.",
-      iconClass: "fas fa-image", // Icon class
+      iconClass: "fas fa-image",
     },
     {
       title: "YouTube SEO",
       description:
         "To make your channel more visible to your target audience, we will help to optimize tags, titles, content, and descriptions for the targeted keywords.",
-      iconClass: "fas fa-chart-line", // Icon class
+      iconClass: "fas fa-chart-line",
     },
   ];
   

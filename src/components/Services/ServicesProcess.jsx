@@ -48,7 +48,7 @@ const ServicesProcess = () => {
             className="p-6 flex flex-cols"
           >
             <div className="flex ">
-              <div className="text-4xl text-blue-500 mr-4 w-8 h-8"> 
+              <div className="text-3xl text-blue-500 mr-4 w-8 h-8"> 
               <i className={step.icon}></i>
               </div>
             </div>

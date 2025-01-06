@@ -107,7 +107,7 @@ const Testimonials = () => {
           <h2 className="text-3xl md:text-4xl font-semibold mb-4 text-[#0d2144]">
             Why <span className="text-blue-600">our clients</span> love us?
           </h2>
-          <p className="text-gray-700 text-lg mb-6">
+          <p className="text-gray-600 text-lg mb-6">
           Our commitment to effective communication and delivering guaranteed results keeps our clients coming back. Here is what our clients say
           </p>
           <NavLink

@@ -64,7 +64,7 @@ const Header = () => {
         </NavLink>
 
         {/* Navigation Links (Desktop) */}
-        <div className="hidden lg:flex space-x-8 text-sm font-semibold text-gray-700">
+        <div className="hidden lg:flex space-x-8 text-sm font-semibold text-[#0d2144]">
           <NavLink
             to="/"
             className={({ isActive }) =>
@@ -276,7 +276,7 @@ const Header = () => {
           {/* Home Link (Mobile) */}
           <NavLink
             to="/"
-            className="block text-sm font-semibold text-gray-700 hover:text-red-700"
+            className="block text-sm font-semibold text-[#0d2144] hover:text-red-700"
             onClick={handleToggle}
           >
             Home
@@ -287,7 +287,7 @@ const Header = () => {
             <div className="flex items-center justify-between">
               <NavLink
                 to="/services"
-                className="text-sm font-semibold text-gray-700 flex-1 hover:text-red-700"
+                className="text-sm font-semibold text-[#0d2144] flex-1 hover:text-red-700"
                 onClick={handleToggle}
               >
                 Services
@@ -296,7 +296,7 @@ const Header = () => {
               <i
                 className={`fa-solid ${
                   openDropdown === "services" ? "fa-minus" : "fa-plus"
-                } text-gray-700 cursor-pointer`}
+                } text-[#0d2144] cursor-pointer`}
                 onClick={() => handleDropdownToggle("services")}
               ></i>
             </div>
@@ -321,7 +321,7 @@ const Header = () => {
             <div className="flex items-center justify-between">
               <NavLink
                 to="/portfolio"
-                className="text-sm font-semibold text-gray-700 flex-1 hover:text-red-700"
+                className="text-sm font-semibold text-[#0d2144] flex-1 hover:text-red-700"
                 onClick={handleToggle}
               >
                 Portfolio
@@ -330,7 +330,7 @@ const Header = () => {
               {/* <i
                 className={`fa-solid ${
                   openDropdown === "work" ? "fa-minus" : "fa-plus"
-                } text-gray-700 cursor-pointer`}
+                } text-[#0d2144] cursor-pointer`}
                 onClick={() => handleDropdownToggle("work")}
               ></i> */}
             </div>
@@ -355,7 +355,7 @@ const Header = () => {
             <div className="flex items-center justify-between">
               <NavLink
                 to="/insights"
-                className="text-sm font-semibold text-gray-700 flex-1 hover:text-red-700"
+                className="text-sm font-semibold text-[#0d2144] flex-1 hover:text-red-700"
                 onClick={handleToggle}
               >
                 Insights
@@ -364,7 +364,7 @@ const Header = () => {
               <i
                 className={`fa-solid ${
                   openDropdown === "insights" ? "fa-minus" : "fa-plus"
-                } text-gray-700 cursor-pointer`}
+                } text-[#0d2144] cursor-pointer`}
                 onClick={() => handleDropdownToggle("insights")}
               ></i>
             </div>
@@ -389,7 +389,7 @@ const Header = () => {
             <div className="flex items-center justify-between">
               <NavLink
                 to="/career"
-                className="text-sm font-semibold text-gray-700 flex-1 hover:text-red-700"
+                className="text-sm font-semibold text-[#0d2144] flex-1 hover:text-red-700"
                 onClick={handleToggle}
               >
                 career
@@ -398,7 +398,7 @@ const Header = () => {
               {/* <i
                 className={`fa-solid ${
                   openDropdown === "careers" ? "fa-minus" : "fa-plus"
-                } text-gray-700 cursor-pointer`}
+                } text-[#0d2144] cursor-pointer`}
                 onClick={() => handleDropdownToggle("careers")}
               ></i> */}
             </div>
@@ -416,7 +416,7 @@ const Header = () => {
           {/* About Us Link (Mobile) */}
           <NavLink
             to="/about"
-            className="block text-sm font-semibold text-gray-700 hover:text-red-700"
+            className="block text-sm font-semibold text-[#0d2144] hover:text-red-700"
             onClick={handleToggle}
           >
             About Us

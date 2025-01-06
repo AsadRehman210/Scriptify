@@ -33,7 +33,7 @@ const Experience = () => {
                     {stats.map((stat, index) => (
                         <div key={index} className="w-full md:w-1/2 lg:w-1/2 pr-4 mb-6">
                             <h3 className="text-blue-600 text-lg font-semibold">{stat.year}</h3>
-                            <h2 className="text-xl font-bold mt-2">{stat.title}</h2>
+                            <h2 className="text-xl font-bold mt-2 text-[#0d2144]">{stat.title}</h2>
                             <p className="mt-2 text-gray-600 text-justify">{stat.description}</p>
                         </div>
                     ))}

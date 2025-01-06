@@ -8,6 +8,7 @@ const Banner = ({
   button,
   btnRightContent,
   link,
+  btnRightLink
 }) => {
   return (
     <section
@@ -32,7 +33,7 @@ const Banner = ({
             {button && (
               <NavLink
                 to={link}
-                className="inline-block text-white font-semibold text-sm px-10 py-2 rounded-md border border-white hover:bg-blue-800 hover:text-white transition duration-300 mx-auto md:mx-0"
+                className="inline-block text-white font-semibold text-sm px-10 py-2 rounded-md border border-white hover:bg-blue-800 hover:border-blue-800 hover:text-white transition duration-300 mx-auto md:mx-0"
               >
                 {button}
               </NavLink>
@@ -40,7 +41,7 @@ const Banner = ({
 
             {btnRightContent && (
               <NavLink
-                to="/job-openings"
+                to={btnRightLink}
                 className="inline-block text-white text-sm font-semibold text-center px-10 py-2 rounded-md hover:bg-orange-600 transition duration-300 bg-orange-500 mx-auto md:mx-0"
               >
                 {btnRightContent}

@@ -49,14 +49,14 @@ const portfolioItems = [
   },
 ];
 
-const Portfolio = ({description, Explore }) => {
+const Portfolio = ({headingOne,headingMidd, headingEnd, description, Explore }) => {
   return (
     <section className="bg-white">
       <div className="container mx-auto px-6 xl:px-36 py-16">
         <div className="max-w-3xl text-left">
-          <h2 className="text-3xl font-extrabold text-gray-900">
-          Check Out 
-          <span className="text-blue-600"> Our Portfolio</span> For Better Understanding 
+          <h2 className="text-3xl font-bold text-[#0d2144]">
+          {headingOne}
+          <span className="text-blue-600"> {headingMidd}</span> {headingEnd}
           </h2>
           <p className="mt-4 text-blue-500 text-xl">
           {description}

@@ -38,9 +38,8 @@ const WhyChooseUs = () => {
     <section className="bg-white">
       <div className="container mx-auto px-6 xl:px-36 py-16">
         <div className="flex flex-col md:flex-row md:justify-between md:items-center gap-8">
-          {/* Introduction Section */}
           <div className="md:w-1/2">
-            <h2 className="text-2xl md:text-4xl font-bold text-gray-900">
+            <h2 className="text-2xl md:text-4xl font-bold text-[#0d2144]">
               Why Choose Scriptify Writer as Your{" "}
               <span className="text-blue-500">Service Provider</span>
             </h2>
@@ -63,7 +62,7 @@ const WhyChooseUs = () => {
                 key={index}
                 className="bg-blue-500 p-6 rounded-tl-lg rounded-tr-[50px] rounded-br-lg rounded-bl-[50px] text-center text-white shadow-lg"
               >
-                <div className="text-4xl mb-4">
+                <div className="text-3xl mb-4">
                   <i className={feature.icon}></i>
                 </div>
                 <h3 className="text-3xl font-bold">{feature.number}</h3>

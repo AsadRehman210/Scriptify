@@ -16,6 +16,8 @@ const AboutUs = () => {
                 content="Based in Lahore Punjab, Scriptify has become a leader in providing content creation services. We have an experienced professional team specializing in YouTube SEO, scriptwriting, video editing, thumbnail designing, and voice-overs. We are dedicated to providing high-quality work that helps our clients drive exceptional results."
                 button="Let's Get Started"
                 btnRightContent="Explore Services"
+                link="/contact"
+                btnRightLink="/services"
 
             />
             <Experience />

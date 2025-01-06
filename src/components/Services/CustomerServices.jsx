@@ -34,7 +34,7 @@ const CustomerServices = () => {
     <section className="bg-white">
       <div className="container mx-auto px-6 xl:px-36 py-16">
         <div className=" text-center">
-          <h2 className="text-3xl font-bold">
+          <h2 className="text-3xl font-bold text-[#0d2144]">
           Our Custom 
           <span className="text-blue-500"> Content Creation </span> 
            Services For Everyone
@@ -43,13 +43,13 @@ const CustomerServices = () => {
           Let us help to maximize your digital presence with our expert content creation solutions that are customizable according to your needs. Our team is an expert in delivering high-quality services that improve user experience.
           </p>
         </div>
-        <div className="mt-8 flex flex-wrap justify-center gap-6">
+        <div className="mt-8 flex flex-wrap justify-center gap-6 text-[#0d2144]">
           {services.map((service) => (
             <div
               key={service.id}
               className="group border-2 rounded-lg p-6 flex flex-col w-64 hover:bg-blue-600 hover:text-white"
             >
-              <div className="text-3xl mb-4">
+              <div className="text-3xl mb-4 ">
                 <i className={service.icon}></i>
               </div>
               <h3 className="text-lg font-semibold">{service.title}</h3>

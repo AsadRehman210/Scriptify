@@ -24,6 +24,9 @@ export const Services = () => {
       <ServicesProcess />
       <WhyChooseUs />
       <Portfolio
+      headingOne="Check Out"
+      headingMidd="Our Portfolio"
+      headingEnd="For Better Understanding"
       description = "Discover the power of our expertise in our collective portfolio, showcasing content creation for every industry. Also, explore our outstanding thumbnails work and see how we help YouTube channels to succeed."
       Explore="Explore More"/>
       <SolutionForIndustry />

@@ -6,12 +6,10 @@ import CareerDiscuss from '../components/common/CareerDiscuss'
 import BusinessPotential from '../components/home/BusinessPotential'
 import LogoSlider from '../components/home/LogoSlider'
 import SampleSlider from '../components/home/SampleSlider'
-// import ScrollingLogos from '../components/home/BusinessPartners'
 
 const Home = () => {
     return (
         <main>
-            {/* <Slider /> */}
             <SampleSlider />
             <LogoSlider />
             <Services />

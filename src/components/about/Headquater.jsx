@@ -14,11 +14,11 @@ const Headquarter = () => {
       <div className="container mx-auto px-6 xl:px-36 py-16 flex flex-col lg:flex-row items-center lg:items-center">
         {/* Text Section */}
         <div className="w-full lg:w-1/2 mb-8 lg:mb-0 lg:mr-12 flex flex-col justify-center">
-          <h2 className="text-3xl md:text-4xl font-semibold mb-4">
+          <h2 className="text-3xl md:text-4xl font-semibold mb-4 text-[#0d2144]">
             Headquartered in{" "}
             <span className="text-blue-600">Ontario, Canada</span>
           </h2>
-          <p className="text-gray-700 text-lg mb-6">
+          <p className="text-gray-600 text-lg mb-6">
             Scriptify boasts a proven track record of delivering top-notch
             custom software solutions to clients ranging from Fortune 500
             companies to startups, including Walmart, SharkTank, Rogers,

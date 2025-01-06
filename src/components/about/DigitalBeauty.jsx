@@ -7,10 +7,10 @@ const DigitalBeauty = () => {
             <div className="flex flex-wrap md:flex-nowrap items-center divide-x-0 md:divide-x divide-gray-900">
                 {/* Left Text Section */}
                 <div className="w-full lg:w-1/2 mb-6 lg:mb-0 pr-0 md:pr-10">
-                    <h2 className="text-2xl lg:text-4xl font-semibold mb-4" style={{ lineHeight: "45px" }}>
+                    <h2 className="text-2xl lg:text-4xl font-semibold mb-4 text-[#0d2144]" style={{ lineHeight: "45px" }}>
                     Let’s Drive Digital Excellence With Us
                     </h2>
-                    <p className="text-gray-900 text-justify">
+                    <p className="text-gray-600 text-justify">
                     At Scriptify, we are proud of creating digital solutions. From content creation and video editing to thumbnail designs and YouTube SEO, we ensure quality work with measurable results. This will ensure their ideas succeed and lead their business in the competitive market.
                     </p>
                 </div>
