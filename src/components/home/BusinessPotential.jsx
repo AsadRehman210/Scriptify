@@ -12,7 +12,7 @@ const BusinessPotential = () => {
                         Boost Your Business Potential
                             <span className="text-blue-500"> With Our Expert Content Creation Solutions</span>
                         </h1>
-                        <p className="text-gray-600 text-lg mb-6 text-justify	">
+                        <p className="text-gray-600 text-md mb-6 text-justify	">
                         Do you feel you’re being backed by limited resources and time? We have got the solutions. Our expert services provide you instant access to an expert team of skilled YouTube search engine optimizers, scriptwriters, video editors, thumbnail designers, and voiceover artists. We carefully select the perfect team member for each task and project so you can focus on growing your business and audience instead of managing a full-time team.
                         </p>
                         <NavLink to="/contact" className="bg-white w-auto text-blue-500 border border-blue-500 font-semibold py-3 px-6 rounded-lg shadow hover:bg-blue-500 hover:text-white transition">

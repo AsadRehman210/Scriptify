@@ -101,7 +101,7 @@ const Testimonials = () => {
 
   return (
     <section className="bg-white">
-      <div className="mx-auto px-6 py-16 md:px-12 lg:pl-36 lg:pr-0 flex flex-col lg:flex-row items-center">
+      <div className="mx-auto px-6 py-16 md:px-12 lg:pl-36 lg:pr-0 flex flex-col lg:flex-row items-center gap-6">
         {/* Text Section */}
         <div className="w-full lg:w-2/5 mb-8 lg:mb-0 flex flex-col justify-center text-center lg:text-left">
           <h2 className="text-3xl md:text-4xl font-semibold mb-4 text-[#0d2144]">

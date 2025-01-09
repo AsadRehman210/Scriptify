@@ -52,7 +52,6 @@ const Services = () => {
 
         {/* Cards Section */}
         <div className="mt-10 grid gap-6 md:grid-cols-3">
-          {/* Render ServicesCard components dynamically */}
           {servicesData.map((service, index) => (
             <ServicesCard
               key={index}

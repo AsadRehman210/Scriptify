@@ -22,16 +22,27 @@ body {
   }
   
   .custom-scrollbar::-webkit-scrollbar-thumb {
-    background-color: #cbd5e1; /* Light gray color for the thumb */
+    background-color: #5981c6; /* Light gray color for the thumb */
     border-radius: 10px; /* Rounded scrollbar thumb */
   }
   
   .custom-scrollbar::-webkit-scrollbar-thumb:hover {
-    background-color: #94a3b8; /* Slightly darker gray on hover */
+    background-color: #0d2144; /* Slightly darker gray on hover */
   }
   
   .custom-scrollbar::-webkit-scrollbar-track {
-    background-color: #f8fafc; /* Light background for the track */
+    background-color: #c6d1e3; /* Light background for the track */
     border-radius: 10px; /* Rounded track edges */
   }
   
+  .custom-bg-banner {
+    background-image: url('../images/Career banner 1.webp');
+    background-size: cover; 
+    background-position: center;
+  }
+.custom-bg-contact{
+  background-image: url('../images/Contact us.webp');
+    background-size: cover; 
+    background-position: center;
+
+}

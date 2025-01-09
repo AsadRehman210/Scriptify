@@ -12,10 +12,7 @@ const Banner = ({
 }) => {
   return (
     <section
-      className="relative bg-cover bg-center h-auto lg:h-screen flex items-center"
-      style={{
-        backgroundImage: `url("https://www.ropstam.com/wp-content/uploads/2023/05/header-about-ropstam-solutions-scaled-1.webp")`,
-      }}
+      className="relative bg-cover bg-center h-auto lg:h-screen flex items-center custom-bg-banner"
     >
       <div className="absolute inset-0 bg-blue-900 opacity-70"></div>
       <div className="container mx-auto px-6 xl:px-36 z-10 py-20">

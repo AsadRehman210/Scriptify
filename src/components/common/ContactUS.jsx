@@ -11,10 +11,7 @@ export const ContactUS = ({
 }) => {
   return (
     <section
-      className="relative min-h-screen flex items-center justify-center bg-cover bg-center"
-      style={{
-        backgroundImage: `url("https://www.ropstam.com/wp-content/uploads/2023/05/header-about-ropstam-solutions-scaled-1.webp")`,
-      }}
+      className="relative min-h-screen flex items-center justify-center bg-cover bg-center custom-bg-contact"
     >
       <div className="absolute inset-0 bg-blue-900 opacity-70"></div>
 

@@ -7,10 +7,8 @@ const JobOpening = () => {
         <section>
         <Banner
          heading= "Job Opportunities"
-         subHeading="Our software developers rank among the top 1%"
-         content= "Explore our current job openings and discover your next career opportunity at Ropstam" 
-         button="Let's get started"
-
+         subHeading="Our Resources rank among the top 10%"
+         content= "Explore our current job openings and discover your next career opportunity at Scriptify" 
          />
         <JobOpenings />
 

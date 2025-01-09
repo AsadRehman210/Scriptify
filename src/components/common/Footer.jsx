@@ -1,7 +1,6 @@
 import React from 'react';
 import isl from "../../assets/images/faisal-masjid-ropstam-solutions.png";
 import Lhr from "../../assets/images/x30_4_Pakistan_tower-1.svg";
-import india from "../../assets/images/taj-mahal-ropstam-solutions.png";
 import newYork from "../../assets/images/new york.png";
 
 const Footer = () => {
@@ -9,7 +8,7 @@ const Footer = () => {
         <footer className='mt-auto'>
              {/* First Part of Footer */}
              <div className="bg-[#1AA54A] bg-opacity-90 text-white py-16">
-                <div className="container mx-auto px-6 xl:px-36 py-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div className="container mx-auto px-6 xl:px-36 py-16 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                     {/* Islamabad */}
                     <div className="text-center">
                         <div className="text-4xl mb-2">
@@ -17,7 +16,7 @@ const Footer = () => {
                         </div>
                         <h3 className="font-bold">Islamabad</h3>
                         <p>DHA 2, Main G.T Road, Islamabad, Pakistan</p>
-                        <p>Phone: 051-5411399</p>
+                        <p>Phone: +92 303 8974920</p>
                     </div>
 
                     {/* Lahore */}
@@ -26,8 +25,8 @@ const Footer = () => {
                             <img src={Lhr} alt="Lahore" className="mx-auto h-16" />
                         </div>
                         <h3 className="font-bold">Lahore</h3>
-                        <p>955 Service Road, Block L, Johar Town, Lahore</p>
-                        <p>Phone: 042-37870956</p>
+                        <p>House#127-A, Block L, Johar Town, Lahore</p>
+                        <p>Phone: +92 303 8974920</p>
                     </div>
 
                     {/* Headquarter */}
@@ -36,17 +35,9 @@ const Footer = () => {
                             <img src={newYork} alt="Headquarter" className="mx-auto w-20 h-16" />
                         </div>
                         <h3 className="font-bold">Headquarter</h3>
-                        <p>Toronto, Ontario, CANADA</p>
+                        <p>447 Broadway, 2nd Floor Suite #75 New York, New York</p>
                     </div>
 
-                    {/* India */}
-                    <div className="text-center">
-                        <div className="text-4xl mb-2">
-                            <img src={india} alt="India" className="mx-auto w-auto h-16" />
-                        </div>
-                        <h3 className="font-bold">India</h3>
-                        <p>2nd Floor Indraprastha Tower 6, Mahatma Gandhi Rd, Indore, MP, 452007, India</p>
-                    </div>
                 </div>
             </div>
 
@@ -62,7 +53,7 @@ const Footer = () => {
 
                         <div className='pl-2 space-y-2'>
                             <p>Have a query?</p>
-                            <p><a href="tel:+923038974920" className="hover:underline">+92 (303) 3038974920</a></p>
+                            <p><a href="tel:+923038974920" className="hover:underline">+92 (303) 8974920</a></p>
                         </div>
                     </div>
 
@@ -105,7 +96,7 @@ const Footer = () => {
 
                 {/* Footer Copyright */}
                 <div className="text-center mt-12">
-                    <p>© 2024 Ropstam Solutions Inc. All Rights Reserved.</p>
+                    <p>© 2018 Scriptify Reserved.</p>
                 </div>
             </div>
         </footer>

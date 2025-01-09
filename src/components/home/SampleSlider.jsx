@@ -87,16 +87,11 @@ const SampleSlider = () => {
 
   return (
     <div
-      className="max-w-full h-screen bg-no-repeat bg-cover bg-center flex items-center relative"
-      style={{
-        backgroundImage: `url("https://www.ropstam.com/wp-content/uploads/2023/05/header-about-ropstam-solutions-scaled-1.webp")`,
-        backgroundSize: "cover",
-        backgroundPosition: "center center",
-      }}
+      className="max-w-full h-screen bg-no-repeat bg-cover bg-center flex items-center relative custom-bg-banner"
       onMouseEnter={handleMouseEnter} // Move the mouse events here
       onMouseLeave={handleMouseLeave}
     >
-      <div className="absolute inset-0 bg-black opacity-50"></div>
+      <div className="absolute inset-0 bg-black opacity-60"></div>
       <Swiper
         slidesPerView={1}
         spaceBetween={30}
@@ -122,13 +117,9 @@ const SampleSlider = () => {
             {/* Content Column */}
             <div
               className="w-full h-full gap-8 text-white p-8"
-              // style={{ pointerEvents: "none" }} // Disable pointer events on content
             >
               <div className="w-full lg:w-4/6 mx-auto flex flex-col align-center justify-center px-2 md:px-6">
                 <h2 className="text-2xl md:text-3xl lg:text-4xl font-bold mb-6 text-shadow-lg text-center">
-                  {/* <span className="text-blue-500">
-                    {slide.title_Highlight}:{" "}
-                  </span> */}
                   <span className="text-[#1AA54A]">{slide.title_Highlight && `${slide.title_Highlight}: `}</span> {slide.title}
                 </h2>
                 <p className="text-base md:text-lg mb-6 text-center">

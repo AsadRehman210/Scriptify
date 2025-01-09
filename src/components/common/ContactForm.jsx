@@ -77,7 +77,7 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="w-full max-w-lg lg:max-w-md bg-white p-6 shadow-lg">
+    <div className="w-full max-w-lg lg:max-w-md bg-white p-6 shadow-lg text-[#0d2144]">
       <form onSubmit={handleSubmit}>
         <div className="flex flex-col space-y-6">
           <input

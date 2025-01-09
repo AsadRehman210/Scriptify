@@ -2,69 +2,73 @@ import React from "react";
 import p1 from "../../assets/images/p1.webp";
 import p2 from "../../assets/images/p2.webp";
 import p3 from "../../assets/images/p3.webp";
-import p4 from "../../assets/images/p-2.svg";
+import p4 from "../../assets/images/p4.webp";
 import p5 from "../../assets/images/p5.webp";
 import { NavLink } from "react-router-dom";
 
 const portfolioItems = [
   {
     id: 1,
-    imageUrl: p1, // Replace with actual image URL
-    title: "MyDasma",
-    description:
-      "A web-based wedding planning solution that connects clients with the event management industry.",
-    buttonText: "View Case Study",
+    imageUrl: p1,
+    title: "Beer Production",
+    description: "How BEER is Made in a Factory",
+    buttonText: "Watch the Video",
+    uvideo: "https://www.youtube.com/watch?v=lM2GR2dNy68"
   },
   {
     id: 2,
-    imageUrl: p2, // Replace with actual image URL
-    title: "Design 2",
-    description:
-      "A web-based wedding planning solution that connects clients with the event management industry.",
-    buttonText: "View Case Study",
+    imageUrl: p2,
+    title: "Silencing Debate",
+    description: "Muslima Throws TANTRUM After Douglas Murray SILENCES Her With Harsh Truths!",
+    buttonText: "Watch the Video",
+    uvideo: "https://www.youtube.com/watch?v=3w0RqkkWUaY"
   },
   {
     id: 3,
-    imageUrl: p3, // Replace with actual image URL
-    title: "Design 3",
-    description:
-      "A web-based wedding planning solution that connects clients with the event management industry.",
-    buttonText: "View Case Study",
+    imageUrl: p3,
+    title: "Asian Destinations",
+    description: "15 Must Visit Asian Destinations You Shouldn’t Miss 2025",
+    buttonText: "Watch the Video",
+    uvideo: "https://www.youtube.com/watch?v=kdyU9o9NAys"
   },
   {
     id: 4,
-    imageUrl: p4, // Replace with actual image URL
-    title: "Design 4",
-    description:
-      "A web-based wedding planning solution that connects clients with the event management industry.",
-    buttonText: "View Case Study",
+    imageUrl: p4,
+    title: "Relationship Advice",
+    description: "10 Relationship Mistakes YOU MUST NEVER do with WOMEN -- Stoic Wisdom",
+    buttonText: "Watch the Video",
+    uvideo: "https://www.youtube.com/watch?v=eW6dpbTrYEA"
   },
   {
     id: 5,
-    imageUrl: p5, // Replace with actual image URL
-    title: "Design 5",
-    description:
-      "A web-based wedding planning solution that connects clients with the event management industry.",
-    buttonText: "View Case Study",
+    imageUrl: p5,
+    title: "Ship Collisions",
+    description: "Biggest Ship Collisions And Mistakes All Caught On Camera",
+    buttonText: "Watch the Video",
+    uvideo: "https://www.youtube.com/watch?v=pb7NFq36tT8"
   },
 ];
 
-const Portfolio = ({headingOne,headingMidd, headingEnd, description, Explore }) => {
+
+const Portfolio = ({ headingOne, headingMidd, headingEnd, description, Explore }) => {
   return (
     <section className="bg-white">
       <div className="container mx-auto px-6 xl:px-36 py-16">
         <div className="max-w-3xl text-left">
           <h2 className="text-3xl font-bold text-[#0d2144]">
-          {headingOne}
-          <span className="text-blue-600"> {headingMidd}</span> {headingEnd}
+            {headingOne}
+            <span className="text-blue-600"> {headingMidd}</span> {headingEnd}
           </h2>
-          <p className="mt-4 text-blue-500 text-xl">
-          {description}
+          <p className="mt-4 text-blue-500 text-lg">
+            {description}
           </p>
         </div>
         <div className="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {portfolioItems.map((item) => (
-            <div
+            <a
+              href={item.uvideo}
+              target="_blank"
+              rel="noopener noreferrer"
               key={item.id}
               className="relative group w-auto h-52 overflow-hidden rounded-lg shadow-lg"
             >
@@ -87,7 +91,7 @@ const Portfolio = ({headingOne,headingMidd, headingEnd, description, Explore }) 
                   </button>
                 </div>
               </div>
-            </div>
+            </a>
           ))}
         </div>
         {Explore && (

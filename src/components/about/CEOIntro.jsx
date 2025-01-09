@@ -12,15 +12,7 @@ const CEOIntro = () => {
                         CEO, Scriptify
                     </p>
                     <p className="text-lg lg:text-xl leading-relaxed text-justify">
-                        “For the past ten years, I have devoted myself wholeheartedly to
-                        building and expanding this company. It brings me great pride to see
-                        the fantastic team we have built, the outstanding work they produce,
-                        and the supportive atmosphere we’ve created for our clients to bring
-                        their ideas to life. Our team’s commitment to excellence and client
-                        satisfaction has been our guiding principle, driving us to deliver
-                        top-notch services that meet and exceed expectations. I am humbled
-                        and honored to have led this organization to where it stands today,
-                        and I look forward to continuing our journey of growth and success.”
+                        “Over the past year, I have overflowed my heart into building and growing Scriptify. I’m extremely proud of the talented team we have selected, the high-quality work they deliver, and the supportive environment we have created for our employees. Our commitment to excellence and client satisfaction drives everything we do. It's an honor to lead this organization and witness the positive impact we created for businesses globally.”
                     </p>
                 </div>
             </div>

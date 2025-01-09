@@ -19,10 +19,7 @@ const Headquarter = () => {
             <span className="text-blue-600">Ontario, Canada</span>
           </h2>
           <p className="text-gray-600 text-lg mb-6">
-            Scriptify boasts a proven track record of delivering top-notch
-            custom software solutions to clients ranging from Fortune 500
-            companies to startups, including Walmart, SharkTank, Rogers,
-            PostMedia, Bell, Telus, Cafebonappetit, and Nescafe, since 2009.
+          Unlock your business potential with Scriptify. Let us help you to transform your ideas into effective YouTube Automation Solutions. We have delivered our outstanding work to our global 50+ clients.
           </p>
           {/* Logos Section */}
           <div className="grid grid-cols-2 sm:grid-cols-5 gap-4">

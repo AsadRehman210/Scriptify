@@ -57,7 +57,7 @@ const SolutionForIndustry = () => {
             Content Creation
               <span className="text-[#0d2144]"> For Every Industry</span>
             </h2>
-            <p className="mb-6">
+            <p className="mb-6 text-gray-600">
             Our exceptional and versatile services serve different industries. We provide customized services that perfectly meet market trends and get user attention at first.
             </p>
 
@@ -79,7 +79,7 @@ const SolutionForIndustry = () => {
             </div>
 
             {/* Tab Content */}
-            <div className="text-[#0d2144]">
+            <div className="text-gray-600">
               <p className="mt-4">{tabContent[activeTab]}</p>
             </div>
           </div>
