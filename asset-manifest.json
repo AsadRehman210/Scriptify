@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/Scriptify/static/css/main.0bacd677.css",
+    "main.js": "/Scriptify/static/js/main.0a79b5dc.js",
+    "static/media/Contact us.webp": "/Scriptify/static/media/Contact us.57a07134adbda580a641.webp",
+    "static/media/perks.png": "/Scriptify/static/media/perks.e5754d7d07c868aacd54.png",
+    "static/media/Career banner 1.webp": "/Scriptify/static/media/Career banner 1.6d574cca0da11e5a7f92.webp",
+    "static/media/work Environment.png": "/Scriptify/static/media/work Environment.275cee4d5e070302fce0.png",
+    "static/media/headquater.webp": "/Scriptify/static/media/headquater.9e145198301f2cd42cff.webp",
+    "static/media/alexia-barrail.jpg": "/Scriptify/static/media/alexia-barrail.9cc25fc3030cb5c1215d.jpg",
+    "static/media/new york.png": "/Scriptify/static/media/new york.d301e7ebc6ee6a08b9bd.png",
+    "static/media/business.jpg": "/Scriptify/static/media/business.b7b2cfc5279458a96894.jpg",
+    "static/media/SCRIPTIFY.png": "/Scriptify/static/media/SCRIPTIFY.a100cb0adbe2d4e9a570.png",
+    "static/media/p1.webp": "/Scriptify/static/media/p1.e3565bcf8a4dcfdd3260.webp",
+    "static/media/p3.webp": "/Scriptify/static/media/p3.24019eab1111a022f712.webp",
+    "static/media/p4.webp": "/Scriptify/static/media/p4.3fe4740dd0b82c96e73b.webp",
+    "static/media/p5.webp": "/Scriptify/static/media/p5.3fe4740dd0b82c96e73b.webp",
+    "static/media/logo4.jpg": "/Scriptify/static/media/logo4.f03b5a70531b5ad7a037.jpg",
+    "static/media/logo5.jpg": "/Scriptify/static/media/logo5.421cc1b9b507583fe06a.jpg",
+    "static/media/p2.webp": "/Scriptify/static/media/p2.aaf647e8c95c97318844.webp",
+    "static/media/x30_4_Pakistan_tower-1.svg": "/Scriptify/static/media/x30_4_Pakistan_tower-1.5c6b53e8ddb362dcf800e696a1b0bfe1.svg",
+    "static/media/slick.svg": "/Scriptify/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/Scriptify/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/Scriptify/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/Scriptify/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/Scriptify/index.html",
+    "main.0bacd677.css.map": "/Scriptify/static/css/main.0bacd677.css.map",
+    "main.0a79b5dc.js.map": "/Scriptify/static/js/main.0a79b5dc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0bacd677.css",
+    "static/js/main.0a79b5dc.js"
+  ]
+}
