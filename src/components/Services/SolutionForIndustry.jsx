@@ -69,7 +69,7 @@ const SolutionForIndustry = () => {
                   className={`px-4 py-2 text-sm md:text-base rounded-full border-2 ${
                     activeTab === tab
                       ? " bg-blue-600 text-white border-blue-600"
-                      : "bg-white text-[#0d2144] border-gray-300 hover:bg-orange-100"
+                      : "bg-white text-blue-600 border-blue-600 hover:bg-orange-100"
                   }`}
                   onClick={() => setActiveTab(tab)}
                 >
