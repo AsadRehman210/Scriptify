@@ -1,0 +1,60 @@
+body {
+    font-family: "Lato", serif;
+}
+
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+
+@keyframes goToTop {
+  0% {
+      transform: translateY(-0.5rem);
+  }
+  100% {
+      transform: translateY(1.3rem);
+  }
+}
+
+.scrolling-container {
+    display: flex;
+    animation: scroll 15s linear infinite;
+}
+.animate-goToTop {
+  animation: goToTop 1s linear infinite alternate-reverse;
+}
+
+/* Custom scrollbar styles */
+.custom-scrollbar::-webkit-scrollbar {
+    height: 6px; 
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #5981c6; 
+    border-radius: 10px; 
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+    background-color: #0d2144; 
+  }
+  
+  .custom-scrollbar::-webkit-scrollbar-track {
+    background-color: #c6d1e3; 
+    border-radius: 10px;
+  }
+  
+  .custom-bg-banner {
+    background-image: url('../images/Career banner 1.webp');
+    background-size: cover; 
+    background-position: center;
+  }
+.custom-bg-contact{
+  background-image: url('../images/Contact us.webp');
+    background-size: cover; 
+    background-position: center;
+
+}
