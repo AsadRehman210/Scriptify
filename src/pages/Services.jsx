@@ -12,6 +12,7 @@ export const Services = () => {
     description:
       "Effortlessly grow your channel as we handle everything—from Video Creation to SEO-optimized titles and descriptions and perfect upload scheduling. Gain more views, attract subscribers, and focus on what you do best: creating amazing content. Let us take care of the rest. Your YouTube success starts here!",
     buttonText: "Let's Get Started",
+    link: "/contact"
   };
   return (
     <main>
@@ -19,6 +20,7 @@ export const Services = () => {
         title={contactInfo.title}
         description={contactInfo.description}
         buttonText={contactInfo.buttonText}
+        link={contactInfo.link}
       />
       <CustomerServices />
       <ServicesProcess />

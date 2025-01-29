@@ -54,8 +54,8 @@ const JobOpenings = () => {
                                 <br />
 
                                 <span className="text-lg text-blue-600 hover:text-blue-800 transition duration-300">
-                                    <a href="mailto:scriptifyofficial@gmail.com">
-                                        scriptifyofficial@gmail.com
+                                    <a href="mailto:contact@scriptify.org">
+                                        contact@scriptify.org
                                     </a>
                                 </span>
                                 <br />

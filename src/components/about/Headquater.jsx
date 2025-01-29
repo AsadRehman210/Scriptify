@@ -3,7 +3,6 @@ import logo1 from "../../assets/images/logo1.webp";
 import logo2 from "../../assets/images/logo2.webp";
 import logo3 from "../../assets/images/logo3.webp";
 import logo4 from "../../assets/images/logo4.webp";
-import logo5 from "../../assets/images/logo5.webp";
 import logo6 from "../../assets/images/logo6.webp";
 import logo8 from '../../assets/images/logo 8.webp';
 import logo9 from '../../assets/images/logo 9.webp';
@@ -19,7 +18,6 @@ const logos = [
   { src: logo2, alt: "Walmart" },
   { src: logo3, alt: "LS Logistics" },
   { src: logo4, alt: "Rogers" },
-  { src: logo5, alt: "GruffyGoat" },
   { src: logo6, alt: "Nescafe" },
   { src: logo8, alt: "Trovexgo" },
   { src: logo9, alt: "Attraction code" },

@@ -6,7 +6,6 @@ import logo1 from '../../assets/images/logo1.webp';
 import logo2 from '../../assets/images/logo2.webp';
 import logo3 from '../../assets/images/logo3.webp';
 import logo4 from '../../assets/images/logo4.webp';
-import logo5 from '../../assets/images/logo5.webp';
 import logo6 from '../../assets/images/logo6.webp';
 import logo8 from '../../assets/images/logo 8.webp';
 import logo9 from '../../assets/images/logo 9.webp';
@@ -17,7 +16,7 @@ import logo13 from '../../assets/images/logo 13.webp';
 import logo14 from '../../assets/images/logo 14.webp';
 
 const LogoSlider = () => {
-  const logos = [logo1, logo2, logo3, logo4, logo5, logo6, logo8, logo9, logo10, logo11, logo12, logo13, logo14];
+  const logos = [logo1, logo2, logo3, logo4, logo6, logo8, logo9, logo10, logo11, logo12, logo13, logo14];
 
   // Duplicate the logos array to ensure a continuous loop
   const extendedLogos = [...logos, ...logos];

@@ -4,6 +4,10 @@ import p2 from "../../assets/images/p2.webp";
 import p3 from "../../assets/images/p3.webp";
 import p4 from "../../assets/images/p4.webp";
 import p5 from "../../assets/images/p5.webp";
+import p6 from "../../assets/images/p6.webp";
+import p9 from "../../assets/images/p9.webp";
+import p7 from "../../assets/images/p7.webp";
+import p8 from "../../assets/images/p8.webp";
 import { NavLink } from "react-router-dom";
 
 const portfolioItems = [
@@ -46,6 +50,38 @@ const portfolioItems = [
     description: "Biggest Ship Collisions And Mistakes All Caught On Camera",
     buttonText: "Watch the Video",
     uvideo: "https://www.youtube.com/watch?v=pb7NFq36tT8"
+  },
+  {
+    id: 6,
+    imageUrl: p6,
+    title: "Trump's Withdrawal",
+    description: "Why Trump Pulled the Plug on the WHO?",
+    buttonText: "Watch the Video",
+    uvideo: "https://www.youtube.com/watch?v=Rdacos2IyYo"
+  },
+  {
+    id: 7,
+    imageUrl: p7,
+    title: "مستقبل تركيا",
+    description: "لماذا ستقود تركيا العقد القادم؟",
+    buttonText: "Watch the Video",
+    uvideo: "https://www.youtube.com/watch?v=vdSaEeZYJDQ"
+  },
+  {
+    id: 8,
+    imageUrl: p8,
+    title: "Balloon Challenge",
+    description: "Billy’s ‘Pop the Balloon or Find Love’ ROASTING Session",
+    buttonText: "Watch the Video",
+    uvideo: "https://www.youtube.com/watch?v=ddN8V1G_8xA"
+  },
+  {
+    id: 9,
+    imageUrl: p9,
+    title: "Luxury Seats",
+    description: "I Tried Every Seat on the Most Expensive Airline",
+    buttonText: "Watch the Video",
+    uvideo: "https://www.youtube.com/watch?v=ymvjfu_Hm_8"
   },
 ];
 

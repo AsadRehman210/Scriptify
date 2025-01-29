@@ -1,5 +1,5 @@
 import React from "react";
-import business from "../../assets/images/business.jpg";
+import business from "../../assets/images/business.webp";
 import { NavLink } from "react-router-dom";
 
 const BusinessPotential = () => {

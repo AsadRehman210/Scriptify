@@ -4,28 +4,28 @@ const ServicesProcess = () => {
   
   const steps = [
     {
-      title: 'Understanding Needs',
+      title: 'Your Need Assessment',
       icon: 'fas fa-search',
       description:
-        'We start with a detailed discussion and consider your specific needs, goals, target audience, and objectives.',
+        'The process begins with understanding your specific needs. We dive deep into your objectives, target audience, and overall vision to create a tailored approach that guarantees success.',
     },
     {
       title: 'Planning and Strategy',
       icon: 'fas fa-pencil-alt',
       description:
-        'Once your goal is clear, we create strategies including trending keywords for SEO, outlining the scripts, and mapping the visuals.',
+        'This involves crafting detailed strategies, identifying trending SEO keywords, outlining engaging scripts, and mapping out visually appealing thumbnails.',
     },
     {
       title: 'Implementation',
       icon: 'fas fa-cogs',
       description:
-        'Now we implement our strategies and create engaging scripts, and creative thumbnails, edit videos, and optimize your channel for SEO.',
+        'Our team transforms the strategy into reality by creating compelling scripts, designing eye-catching thumbnails, editing high-quality videos, and optimizing your YouTube channel for growth and visibility.',
     },
     {
-      title: 'Final Review and Delivery',
+      title: 'Quality Assurance',
       icon: 'fas fa-check-circle',
       description:
-        'Before delivering the final results, we perform a quality check to ensure it meets your specific needs.',
+        'We conduct a thorough quality check before delivering the finished product. Every element is reviewed to ensure it meets your expectations and achieves your goals. At Scriptify, our process is designed to provide user-centric content that drives results.',
     },
   ];
 
@@ -38,7 +38,7 @@ const ServicesProcess = () => {
       Our Process Of <span className="text-blue-500">Content Creation</span> 
       </h2>
       <p className="text-gray-600 text-center mt-4">
-      We follow a 4-step simple process to create user-centric designs while considering your key goals. Our team will work hard and deep-dive to understand your needs which will provide you with perfect results that resonate perfectly with your needs.
+      At Scriptify, we have crafted a seamless 4-step process to create content that aligns with your vision and captivates your audience. With a focus on your goals, our team works diligently to deliver results that truly resonate. 
       </p>
 
       <div className="mt-12 grid grid-cols-1 md:grid-cols-2 gap-8">

@@ -8,8 +8,8 @@ export const accordionData = [
         content: "Our next step is to give you a task or exercise that you have to complete, through which we check your technical skills.",
     },
     {
-        title: 'Onsite Interview',
-        content: "Next, we will conduct onsite or virtual meetings depending on your location, where we assess your cultural fit and discuss how you can contribute to Scriptify's success.",
+        title: 'Technical Interview',
+        content: "Next, we will conduct virtual meetings where the team will talk more about your technical expertise, and we will also assess your cultural fit and discuss how you can contribute to Scriptify's success.",
     },
     {
         title: 'Offer Stage',

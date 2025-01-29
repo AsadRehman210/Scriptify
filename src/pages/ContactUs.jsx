@@ -5,10 +5,11 @@ function ContactPageComponent() {
   // Define the content you want to pass as props
   const contactInfo = {
     title: "Contact Us",
-    description: "At Scriptify, we specialize in delivering exceptional digital experiences. From web development to design and maintenance, our experts are here to help. Contact us today to learn more about how we can achieve your software development goals.",
+    description: "At Scriptify, we specialize in delivering exceptional YouTube automation experiences. From scriptwriting to video editing and YouTube SEO, our experts are here to help. Contact us today to learn more about how we can help achieve your YouTube channel's success goals.",
     phoneNumber: "+923038974920",
-    email: "scriptifyofficial@gmail.com",
-    buttonText: "Explore Our Work"
+    email: "contact@scriptify.org",
+    buttonText: "Explore Our Work",
+    link:"/services"
   };
 
   return (
@@ -19,6 +20,7 @@ function ContactPageComponent() {
         phoneNumber={contactInfo.phoneNumber}
         email={contactInfo.email}
         buttonText={contactInfo.buttonText}
+        link={contactInfo.link}
       />
     </section>
   );

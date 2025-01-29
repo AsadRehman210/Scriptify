@@ -8,6 +8,7 @@ export const ContactUS = ({
   phoneNumber,
   email,
   buttonText,
+  link
 }) => {
   return (
     <section
@@ -42,7 +43,7 @@ export const ContactUS = ({
                   </a>
                 )}
               </div>
-              <NavLink to="/contact" className="bg-transparent border-2 border-white hover:bg-white hover:text-blue-700 text-white font-bold py-2 px-6 rounded">
+              <NavLink to={link} className="bg-transparent border-2 border-white hover:bg-white hover:text-blue-700 text-white font-bold py-2 px-6 rounded">
                 {buttonText}
               </NavLink>
             </div>
